@@ -1,0 +1,30 @@
+D:\共享文件夹\My Plan\My Plan\bin\Release\My Plan.exe
+D:\共享文件夹\My Plan\My Plan\bin\Release\My Plan.pdb
+D:\共享文件夹\My Plan\My Plan\obj\x86\Release\ResolveAssemblyReference.cache
+D:\共享文件夹\My Plan\My Plan\obj\x86\Release\My_Plan.Frm_AddNote.resources
+D:\共享文件夹\My Plan\My Plan\obj\x86\Release\My_Plan.Frm_Edit.resources
+D:\共享文件夹\My Plan\My Plan\obj\x86\Release\My_Plan.Frm_Login.resources
+D:\共享文件夹\My Plan\My Plan\obj\x86\Release\My_Plan.Frm_Main.resources
+D:\共享文件夹\My Plan\My Plan\obj\x86\Release\My_Plan.Frm_Select.resources
+D:\共享文件夹\My Plan\My Plan\obj\x86\Release\My_Plan.Frm_View.resources
+D:\共享文件夹\My Plan\My Plan\obj\x86\Release\My_Plan.Frm_ViewNoteDetail.resources
+D:\共享文件夹\My Plan\My Plan\obj\x86\Release\My_Plan.Properties.Resources.resources
+D:\共享文件夹\My Plan\My Plan\obj\x86\Release\GenerateResource.read.1.tlog
+D:\共享文件夹\My Plan\My Plan\obj\x86\Release\GenerateResource.write.1.tlog
+D:\共享文件夹\My Plan\My Plan\obj\x86\Release\My Plan.exe
+D:\共享文件夹\My Plan\My Plan\obj\x86\Release\My Plan.pdb
+C:\My Plan\My Plan\obj\x86\Release\My Plan.exe
+C:\My Plan\My Plan\obj\x86\Release\My Plan.pdb
+C:\My Plan\My Plan\bin\Release\My Plan.exe
+C:\My Plan\My Plan\bin\Release\My Plan.pdb
+C:\My Plan\My Plan\obj\x86\Release\ResolveAssemblyReference.cache
+C:\My Plan\My Plan\obj\x86\Release\My_Plan.Frm_AddNote.resources
+C:\My Plan\My Plan\obj\x86\Release\My_Plan.Frm_Edit.resources
+C:\My Plan\My Plan\obj\x86\Release\My_Plan.Frm_Login.resources
+C:\My Plan\My Plan\obj\x86\Release\My_Plan.Frm_Main.resources
+C:\My Plan\My Plan\obj\x86\Release\My_Plan.Frm_Select.resources
+C:\My Plan\My Plan\obj\x86\Release\My_Plan.Frm_View.resources
+C:\My Plan\My Plan\obj\x86\Release\My_Plan.Frm_ViewNoteDetail.resources
+C:\My Plan\My Plan\obj\x86\Release\My_Plan.Properties.Resources.resources
+C:\My Plan\My Plan\obj\x86\Release\GenerateResource.read.1.tlog
+C:\My Plan\My Plan\obj\x86\Release\GenerateResource.write.1.tlog
