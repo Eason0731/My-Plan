@@ -53,7 +53,7 @@
             // 
             this.txt用户名.Font = new System.Drawing.Font("宋体", 13F);
             this.txt用户名.Location = new System.Drawing.Point(235, 98);
-            this.txt用户名.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt用户名.Margin = new System.Windows.Forms.Padding(4);
             this.txt用户名.Name = "txt用户名";
             this.txt用户名.Size = new System.Drawing.Size(227, 32);
             this.txt用户名.TabIndex = 1;
@@ -62,7 +62,7 @@
             // 
             this.txt密码.Font = new System.Drawing.Font("宋体", 13F);
             this.txt密码.Location = new System.Drawing.Point(235, 172);
-            this.txt密码.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt密码.Margin = new System.Windows.Forms.Padding(4);
             this.txt密码.Name = "txt密码";
             this.txt密码.PasswordChar = '*';
             this.txt密码.Size = new System.Drawing.Size(227, 32);
@@ -83,7 +83,7 @@
             // 
             this.btn_login.Font = new System.Drawing.Font("宋体", 13F);
             this.btn_login.Location = new System.Drawing.Point(136, 278);
-            this.btn_login.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_login.Margin = new System.Windows.Forms.Padding(4);
             this.btn_login.Name = "btn_login";
             this.btn_login.Size = new System.Drawing.Size(116, 49);
             this.btn_login.TabIndex = 4;
@@ -95,7 +95,7 @@
             // 
             this.btn_reset.Font = new System.Drawing.Font("宋体", 13F);
             this.btn_reset.Location = new System.Drawing.Point(347, 278);
-            this.btn_reset.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_reset.Margin = new System.Windows.Forms.Padding(4);
             this.btn_reset.Name = "btn_reset";
             this.btn_reset.Size = new System.Drawing.Size(116, 49);
             this.btn_reset.TabIndex = 5;
@@ -107,11 +107,11 @@
             // 
             this.btn_help.Font = new System.Drawing.Font("宋体", 13F);
             this.btn_help.Location = new System.Drawing.Point(136, 371);
-            this.btn_help.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_help.Margin = new System.Windows.Forms.Padding(4);
             this.btn_help.Name = "btn_help";
             this.btn_help.Size = new System.Drawing.Size(116, 49);
             this.btn_help.TabIndex = 6;
-            this.btn_help.Text = "密码点我";
+            this.btn_help.Text = "密码";
             this.btn_help.UseVisualStyleBackColor = true;
             this.btn_help.Click += new System.EventHandler(this.btn_help_Click);
             // 
@@ -119,7 +119,7 @@
             // 
             this.btn_exit.Font = new System.Drawing.Font("宋体", 13F);
             this.btn_exit.Location = new System.Drawing.Point(347, 371);
-            this.btn_exit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_exit.Margin = new System.Windows.Forms.Padding(4);
             this.btn_exit.Name = "btn_exit";
             this.btn_exit.Size = new System.Drawing.Size(116, 49);
             this.btn_exit.TabIndex = 7;
@@ -131,7 +131,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(644, 545);
+            this.ClientSize = new System.Drawing.Size(640, 541);
             this.ControlBox = false;
             this.Controls.Add(this.btn_exit);
             this.Controls.Add(this.btn_help);
@@ -142,7 +142,7 @@
             this.Controls.Add(this.txt用户名);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Frm_Login";
             this.ShowIcon = false;
             this.Text = "登录";
