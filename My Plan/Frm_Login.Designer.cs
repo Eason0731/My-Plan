@@ -111,7 +111,7 @@
             this.btn_help.Name = "btn_help";
             this.btn_help.Size = new System.Drawing.Size(116, 49);
             this.btn_help.TabIndex = 6;
-            this.btn_help.Text = "密码";
+            this.btn_help.Text = "密码哦";
             this.btn_help.UseVisualStyleBackColor = true;
             this.btn_help.Click += new System.EventHandler(this.btn_help_Click);
             // 
