@@ -33,8 +33,8 @@
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.txt内容 = new System.Windows.Forms.TextBox();
-            this.txt标题 = new System.Windows.Forms.TextBox();
+            this.txtContent = new System.Windows.Forms.TextBox();
+            this.txtTitle = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txt笔记分类 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
@@ -93,30 +93,30 @@
             this.label1.TabIndex = 18;
             this.label1.Text = "标题：";
             // 
-            // txt内容
+            // txtContent
             // 
-            this.txt内容.Font = new System.Drawing.Font("宋体", 12F);
-            this.txt内容.Location = new System.Drawing.Point(164, 121);
-            this.txt内容.Margin = new System.Windows.Forms.Padding(4);
-            this.txt内容.Multiline = true;
-            this.txt内容.Name = "txt内容";
-            this.txt内容.ReadOnly = true;
-            this.txt内容.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.txt内容.Size = new System.Drawing.Size(637, 420);
-            this.txt内容.TabIndex = 27;
-            this.txt内容.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStatus_KeyDown);
+            this.txtContent.Font = new System.Drawing.Font("宋体", 12F);
+            this.txtContent.Location = new System.Drawing.Point(164, 121);
+            this.txtContent.Margin = new System.Windows.Forms.Padding(4);
+            this.txtContent.Multiline = true;
+            this.txtContent.Name = "txtContent";
+            this.txtContent.ReadOnly = true;
+            this.txtContent.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.txtContent.Size = new System.Drawing.Size(637, 420);
+            this.txtContent.TabIndex = 27;
+            this.txtContent.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStatus_KeyDown);
             // 
-            // txt标题
+            // txtTitle
             // 
-            this.txt标题.Font = new System.Drawing.Font("宋体", 12F);
-            this.txt标题.Location = new System.Drawing.Point(165, 45);
-            this.txt标题.Margin = new System.Windows.Forms.Padding(4);
-            this.txt标题.Multiline = true;
-            this.txt标题.Name = "txt标题";
-            this.txt标题.ReadOnly = true;
-            this.txt标题.Size = new System.Drawing.Size(343, 34);
-            this.txt标题.TabIndex = 26;
-            this.txt标题.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStatus_KeyDown);
+            this.txtTitle.Font = new System.Drawing.Font("宋体", 12F);
+            this.txtTitle.Location = new System.Drawing.Point(165, 45);
+            this.txtTitle.Margin = new System.Windows.Forms.Padding(4);
+            this.txtTitle.Multiline = true;
+            this.txtTitle.Name = "txtTitle";
+            this.txtTitle.ReadOnly = true;
+            this.txtTitle.Size = new System.Drawing.Size(343, 34);
+            this.txtTitle.TabIndex = 26;
+            this.txtTitle.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStatus_KeyDown);
             // 
             // label4
             // 
@@ -149,8 +149,8 @@
             this.ControlBox = false;
             this.Controls.Add(this.txt笔记分类);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.txt内容);
-            this.Controls.Add(this.txt标题);
+            this.Controls.Add(this.txtContent);
+            this.Controls.Add(this.txtTitle);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btn_back);
             this.Controls.Add(this.dateTimePicker1);
@@ -174,8 +174,8 @@
         public System.Windows.Forms.DateTimePicker dateTimePicker1;
         public System.Windows.Forms.Label label2;
         public System.Windows.Forms.Label label1;
-        public System.Windows.Forms.TextBox txt内容;
-        public System.Windows.Forms.TextBox txt标题;
+        public System.Windows.Forms.TextBox txtContent;
+        public System.Windows.Forms.TextBox txtTitle;
         public System.Windows.Forms.Label label4;
         public System.Windows.Forms.TextBox txt笔记分类;
     }

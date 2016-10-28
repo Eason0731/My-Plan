@@ -20,7 +20,7 @@ namespace My_Plan
 
         private void btn_login_Click(object sender, EventArgs e)
         {
-            if (txt用户名.Text.ToLower() == "admin" && txt密码.Text.ToLower() == "admin")
+            if (txtUserName.Text.ToLower() == "admin" && txtPassWord.Text.ToLower() == "admin")
             {
                 MessageBox.Show("登录成功！");
                 Frm_Select frm1 = new Frm_Select();
@@ -32,9 +32,9 @@ namespace My_Plan
                 
                 MessageBox.Show("用户名或密码错误！");
                 whfsb++;
-                //txt用户名.Text = ""; 输错不清除用户名信息
+                //txtUserName.Text = ""; 输错不清除用户名信息
 
-                txt密码.Text = "";
+                txtPassWord.Text = "";
 
                 if (whfsb == 3) 
                 {
@@ -48,8 +48,8 @@ namespace My_Plan
 
         private void btn_reset_Click(object sender, EventArgs e)
         {
-            txt用户名.Text = "";
-            txt密码.Text = "";
+            txtUserName.Text = "";
+            txtPassWord.Text = "";
         }
 
         private void btn_help_Click(object sender, EventArgs e)

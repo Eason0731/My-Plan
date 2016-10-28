@@ -31,7 +31,7 @@ namespace My_Plan
 
         private void Frm_ViewNoteDetail_Load(object sender, EventArgs e)
         {
-            this.Text = txt标题.Text;
+            this.Text = txtTitle.Text;
         }
 
         private void txtStatus_KeyDown(object sender, KeyEventArgs e)

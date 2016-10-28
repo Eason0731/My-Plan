@@ -34,14 +34,14 @@
             this.btn_update = new System.Windows.Forms.Button();
             this.btn_del = new System.Windows.Forms.Button();
             this.btn_select = new System.Windows.Forms.Button();
-            this.txt标题 = new System.Windows.Forms.TextBox();
+            this.txtTitle = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.txt内容 = new System.Windows.Forms.TextBox();
+            this.txtContent = new System.Windows.Forms.TextBox();
             this.btn_viewnote = new System.Windows.Forms.Button();
             this.btn_clean = new System.Windows.Forms.Button();
             this.btn_cleanresult = new System.Windows.Forms.Button();
-            this.cmb分类 = new System.Windows.Forms.ComboBox();
+            this.cmbClassification = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -117,16 +117,16 @@
             this.btn_select.UseVisualStyleBackColor = true;
             this.btn_select.Click += new System.EventHandler(this.btn_select_Click);
             // 
-            // txt标题
+            // txtTitle
             // 
-            this.txt标题.Font = new System.Drawing.Font("宋体", 12F);
-            this.txt标题.Location = new System.Drawing.Point(113, 337);
-            this.txt标题.Margin = new System.Windows.Forms.Padding(4);
-            this.txt标题.Multiline = true;
-            this.txt标题.Name = "txt标题";
-            this.txt标题.Size = new System.Drawing.Size(343, 34);
-            this.txt标题.TabIndex = 23;
-            this.txt标题.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStatus_KeyDown);
+            this.txtTitle.Font = new System.Drawing.Font("宋体", 12F);
+            this.txtTitle.Location = new System.Drawing.Point(113, 337);
+            this.txtTitle.Margin = new System.Windows.Forms.Padding(4);
+            this.txtTitle.Multiline = true;
+            this.txtTitle.Name = "txtTitle";
+            this.txtTitle.Size = new System.Drawing.Size(343, 34);
+            this.txtTitle.TabIndex = 23;
+            this.txtTitle.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStatus_KeyDown);
             // 
             // label2
             // 
@@ -150,17 +150,17 @@
             this.label1.TabIndex = 21;
             this.label1.Text = "标题：";
             // 
-            // txt内容
+            // txtContent
             // 
-            this.txt内容.Font = new System.Drawing.Font("宋体", 12F);
-            this.txt内容.Location = new System.Drawing.Point(113, 415);
-            this.txt内容.Margin = new System.Windows.Forms.Padding(4);
-            this.txt内容.Multiline = true;
-            this.txt内容.Name = "txt内容";
-            this.txt内容.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.txt内容.Size = new System.Drawing.Size(343, 196);
-            this.txt内容.TabIndex = 24;
-            this.txt内容.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStatus_KeyDown);
+            this.txtContent.Font = new System.Drawing.Font("宋体", 12F);
+            this.txtContent.Location = new System.Drawing.Point(113, 415);
+            this.txtContent.Margin = new System.Windows.Forms.Padding(4);
+            this.txtContent.Multiline = true;
+            this.txtContent.Name = "txtContent";
+            this.txtContent.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.txtContent.Size = new System.Drawing.Size(343, 196);
+            this.txtContent.TabIndex = 24;
+            this.txtContent.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStatus_KeyDown);
             // 
             // btn_viewnote
             // 
@@ -198,20 +198,20 @@
             this.btn_cleanresult.UseVisualStyleBackColor = true;
             this.btn_cleanresult.Click += new System.EventHandler(this.btn_cleanresult_Click);
             // 
-            // cmb分类
+            // cmbClassification
             // 
-            this.cmb分类.DropDownHeight = 116;
-            this.cmb分类.FormattingEnabled = true;
-            this.cmb分类.IntegralHeight = false;
-            this.cmb分类.Items.AddRange(new object[] {
+            this.cmbClassification.DropDownHeight = 116;
+            this.cmbClassification.FormattingEnabled = true;
+            this.cmbClassification.IntegralHeight = false;
+            this.cmbClassification.Items.AddRange(new object[] {
             "工作类",
             "技术类",
             "其他类",
             ""});
-            this.cmb分类.Location = new System.Drawing.Point(620, 341);
-            this.cmb分类.Name = "cmb分类";
-            this.cmb分类.Size = new System.Drawing.Size(270, 23);
-            this.cmb分类.TabIndex = 29;
+            this.cmbClassification.Location = new System.Drawing.Point(620, 341);
+            this.cmbClassification.Name = "cmbClassification";
+            this.cmbClassification.Size = new System.Drawing.Size(270, 23);
+            this.cmbClassification.TabIndex = 29;
             // 
             // label5
             // 
@@ -230,13 +230,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(957, 856);
             this.ControlBox = false;
-            this.Controls.Add(this.cmb分类);
+            this.Controls.Add(this.cmbClassification);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btn_cleanresult);
             this.Controls.Add(this.btn_clean);
             this.Controls.Add(this.btn_viewnote);
-            this.Controls.Add(this.txt内容);
-            this.Controls.Add(this.txt标题);
+            this.Controls.Add(this.txtContent);
+            this.Controls.Add(this.txtTitle);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_select);
@@ -265,14 +265,14 @@
         private System.Windows.Forms.Button btn_update;
         private System.Windows.Forms.Button btn_del;
         private System.Windows.Forms.Button btn_select;
-        public System.Windows.Forms.TextBox txt标题;
+        public System.Windows.Forms.TextBox txtTitle;
         public System.Windows.Forms.Label label2;
         public System.Windows.Forms.Label label1;
-        public System.Windows.Forms.TextBox txt内容;
+        public System.Windows.Forms.TextBox txtContent;
         private System.Windows.Forms.Button btn_viewnote;
         private System.Windows.Forms.Button btn_clean;
         private System.Windows.Forms.Button btn_cleanresult;
-        private System.Windows.Forms.ComboBox cmb分类;
+        private System.Windows.Forms.ComboBox cmbClassification;
         public System.Windows.Forms.Label label5;
     }
 }

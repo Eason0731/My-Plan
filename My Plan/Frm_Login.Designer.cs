@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.txt用户名 = new System.Windows.Forms.TextBox();
-            this.txt密码 = new System.Windows.Forms.TextBox();
+            this.txtUserName = new System.Windows.Forms.TextBox();
+            this.txtPassWord = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btn_login = new System.Windows.Forms.Button();
             this.btn_reset = new System.Windows.Forms.Button();
@@ -49,24 +49,24 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "用户名";
             // 
-            // txt用户名
+            // txtUserName
             // 
-            this.txt用户名.Font = new System.Drawing.Font("宋体", 13F);
-            this.txt用户名.Location = new System.Drawing.Point(235, 98);
-            this.txt用户名.Margin = new System.Windows.Forms.Padding(4);
-            this.txt用户名.Name = "txt用户名";
-            this.txt用户名.Size = new System.Drawing.Size(227, 32);
-            this.txt用户名.TabIndex = 1;
+            this.txtUserName.Font = new System.Drawing.Font("宋体", 13F);
+            this.txtUserName.Location = new System.Drawing.Point(235, 98);
+            this.txtUserName.Margin = new System.Windows.Forms.Padding(4);
+            this.txtUserName.Name = "txtUserName";
+            this.txtUserName.Size = new System.Drawing.Size(227, 32);
+            this.txtUserName.TabIndex = 1;
             // 
-            // txt密码
+            // txtPassWord
             // 
-            this.txt密码.Font = new System.Drawing.Font("宋体", 13F);
-            this.txt密码.Location = new System.Drawing.Point(235, 172);
-            this.txt密码.Margin = new System.Windows.Forms.Padding(4);
-            this.txt密码.Name = "txt密码";
-            this.txt密码.PasswordChar = '*';
-            this.txt密码.Size = new System.Drawing.Size(227, 32);
-            this.txt密码.TabIndex = 3;
+            this.txtPassWord.Font = new System.Drawing.Font("宋体", 13F);
+            this.txtPassWord.Location = new System.Drawing.Point(235, 172);
+            this.txtPassWord.Margin = new System.Windows.Forms.Padding(4);
+            this.txtPassWord.Name = "txtPassWord";
+            this.txtPassWord.PasswordChar = '*';
+            this.txtPassWord.Size = new System.Drawing.Size(227, 32);
+            this.txtPassWord.TabIndex = 3;
             // 
             // label2
             // 
@@ -111,7 +111,7 @@
             this.btn_help.Name = "btn_help";
             this.btn_help.Size = new System.Drawing.Size(116, 49);
             this.btn_help.TabIndex = 6;
-            this.btn_help.Text = "密码哦";
+            this.btn_help.Text = "密码";
             this.btn_help.UseVisualStyleBackColor = true;
             this.btn_help.Click += new System.EventHandler(this.btn_help_Click);
             // 
@@ -131,15 +131,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(640, 541);
+            this.ClientSize = new System.Drawing.Size(636, 537);
             this.ControlBox = false;
             this.Controls.Add(this.btn_exit);
             this.Controls.Add(this.btn_help);
             this.Controls.Add(this.btn_reset);
             this.Controls.Add(this.btn_login);
-            this.Controls.Add(this.txt密码);
+            this.Controls.Add(this.txtPassWord);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.txt用户名);
+            this.Controls.Add(this.txtUserName);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Margin = new System.Windows.Forms.Padding(4);
@@ -154,8 +154,8 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txt用户名;
-        private System.Windows.Forms.TextBox txt密码;
+        private System.Windows.Forms.TextBox txtUserName;
+        private System.Windows.Forms.TextBox txtPassWord;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btn_login;
         private System.Windows.Forms.Button btn_reset;

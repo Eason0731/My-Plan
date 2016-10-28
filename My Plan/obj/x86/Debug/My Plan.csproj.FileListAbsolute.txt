@@ -32,7 +32,6 @@ C:\My Plan\My Plan\obj\x86\Debug\My Plan.exe
 C:\My Plan\My Plan\obj\x86\Debug\My Plan.pdb
 C:\My Plan\My Plan\bin\Debug\My Plan.exe
 C:\My Plan\My Plan\bin\Debug\My Plan.pdb
-C:\My Plan\My Plan\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\My Plan\My Plan\obj\x86\Debug\My_Plan.Frm_AddNote.resources
 C:\My Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Edit.resources
 C:\My Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Login.resources
@@ -41,7 +40,8 @@ C:\My Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Select.resources
 C:\My Plan\My Plan\obj\x86\Debug\My_Plan.Frm_View.resources
 C:\My Plan\My Plan\obj\x86\Debug\My_Plan.Frm_ViewNoteDetail.resources
 C:\My Plan\My Plan\obj\x86\Debug\My_Plan.Properties.Resources.resources
-C:\My Plan\My Plan\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\My Plan\My Plan\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\My Git Projects\My-Plan\My Plan\obj\x86\Debug\My Plan.exe
 C:\My Git Projects\My-Plan\My Plan\obj\x86\Debug\My Plan.pdb
+C:\Github Project\My Plan\obj\x86\Debug\My Plan.exe
+C:\Github Project\My Plan\obj\x86\Debug\My Plan.pdb
+C:\My Plan\My Plan\obj\x86\Debug\My Plan.csproj.GenerateResource.Cache

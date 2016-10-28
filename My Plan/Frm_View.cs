@@ -28,7 +28,7 @@ namespace My_Plan
             //不显示datagridview的最后一行
             dataGridView1.DataSource = "";
 
-            //cmb分类.SelectedIndex = 0;
+            //cmbClassification.SelectedIndex = 0;
             
         }
 
@@ -45,46 +45,46 @@ namespace My_Plan
             OleDbConnection myCon = new OleDbConnection(Conn); //连接到数据库
 
             string myStr1 = "select [id],[title] as 笔记标题,[content] as 笔记内容,[datetime] as 记录时间, [class] as 笔记分类 from [Note] where 1=1";
-            if ( txt标题.Text != "" )
+            if ( txtTitle.Text != "" )
             {
                 string TempTitle = "";
-                if (txt标题.Text.Contains("'"))
+                if (txtTitle.Text.Contains("'"))
                 {
-                    TempTitle = txt标题.Text.Replace("'", "''");
+                    TempTitle = txtTitle.Text.Replace("'", "''");
                     myStr1 += " and [title] like '%" + TempTitle + "%'"; //将单引号被替换为两个单引号的结果，存到临时变量中，该临时变量作为搜索条件。每次遇到有单引号的字符，则需要通过该方法去替换
                 }
 
                 else
                 {
-                    myStr1 += " and [title] like '%" + txt标题.Text + "%'"; //若字符中不包含单引号，则还是按照文本框输入的字符进入搜索
+                    myStr1 += " and [title] like '%" + txtTitle.Text + "%'"; //若字符中不包含单引号，则还是按照文本框输入的字符进入搜索
                 }
 
 
             }
 
-            if ( txt内容.Text != "")
+            if ( txtContent.Text != "")
             {
                 string TempContent = "";
-                if (txt内容.Text.Contains("'"))
+                if (txtContent.Text.Contains("'"))
                 {
-                    TempContent = txt内容.Text.Replace("'", "''");
+                    TempContent = txtContent.Text.Replace("'", "''");
                     myStr1 += " and [content] like '%" + TempContent + "%'"; //将单引号被替换为两个单引号的结果，存到临时变量中，该临时变量作为搜索条件。每次遇到有单引号的字符，则需要通过该方法去替换
                 }
 
                 else
                 {
-                    myStr1 += " and [content] like '%" + txt内容.Text + "%'"; //若字符中不包含单引号，则还是按照文本框输入的字符进入搜索
+                    myStr1 += " and [content] like '%" + txtContent.Text + "%'"; //若字符中不包含单引号，则还是按照文本框输入的字符进入搜索
                 }
                 
             }
 
-            if (cmb分类.Text != "") { 
-                myStr1 += " and [class] = '"+ cmb分类.Text+"' ";
+            if (cmbClassification.Text != "") { 
+                myStr1 += " and [class] = '"+ cmbClassification.Text+"' ";
             }
 
             
 
-            // 将txt内容.Text读取到的包含单引号的值，替换为两个单引号字符。例如'r',会转成r。否则不转换无法写进数据库。因为不转换就是''r''包含单引号的字符无法写入数据库
+            // 将txtContent.Text读取到的包含单引号的值，替换为两个单引号字符。例如'r',会转成r。否则不转换无法写进数据库。因为不转换就是''r''包含单引号的字符无法写入数据库
             // 转换前：insert into [Note] ([title],[content],[datetime]) values ('111' , 'files = open (r‘D\Abc\1.txt’,'r')', '2016/9/10')
             // 转换后：insert into [Note] ([title],[content],[datetime]) values ('GFFG' , 'files = open (r‘D\Abc\1.txt’,''r'')', '2016/9/10')
             // 显示的结果还是会显示为一个单引号的值
@@ -170,8 +170,8 @@ namespace My_Plan
                     Frm_ViewNoteDetail frm_viewdetail = new Frm_ViewNoteDetail(row);
                     //为查看准备数据
                     //frm_viewdetail.label4.Text = row["id"].ToString();
-                    frm_viewdetail.txt标题.Text = row["笔记标题"].ToString();
-                    frm_viewdetail.txt内容.Text = row["笔记内容"].ToString();
+                    frm_viewdetail.txtTitle.Text = row["笔记标题"].ToString();
+                    frm_viewdetail.txtContent.Text = row["笔记内容"].ToString();
                     frm_viewdetail.dateTimePicker1.Text = row["记录时间"].ToString();
                     frm_viewdetail.txt笔记分类.Text = row["笔记分类"].ToString();
 
@@ -207,10 +207,10 @@ namespace My_Plan
                 Frm_Edit frm_update = new Frm_Edit(row);
                 //为查看准备数据
                 //frm_update.label5.Text = row["id"].ToString();
-                frm_update.txt标题.Text = row["笔记标题"].ToString();
-                frm_update.txt内容.Text = row["笔记内容"].ToString();
+                frm_update.txtTitle.Text = row["笔记标题"].ToString();
+                frm_update.txtContent.Text = row["笔记内容"].ToString();
                 frm_update.dateTimePicker1.Text = row["记录时间"].ToString();
-                frm_update.cmb分类.Text = row["笔记分类"].ToString();
+                frm_update.cmbClassification.Text = row["笔记分类"].ToString();
 
                 frm_update.ShowDialog();
                 SelectAll(); //刷新数据
@@ -248,9 +248,9 @@ namespace My_Plan
 
         private void btn_clean_Click(object sender, EventArgs e)
         {
-            txt标题.Text = "";
-            txt内容.Text = "";
-            cmb分类.Text = "";
+            txtTitle.Text = "";
+            txtContent.Text = "";
+            cmbClassification.Text = "";
         }
 
         private void btn_cleanresult_Click(object sender, EventArgs e)

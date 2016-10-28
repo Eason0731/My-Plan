@@ -33,11 +33,11 @@
             this.btn_save = new System.Windows.Forms.Button();
             this.btn_back = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.txt内容 = new System.Windows.Forms.TextBox();
-            this.txt标题 = new System.Windows.Forms.TextBox();
+            this.txtContent = new System.Windows.Forms.TextBox();
+            this.txtTitle = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.cmb分类 = new System.Windows.Forms.ComboBox();
+            this.cmbClassification = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -97,29 +97,29 @@
             this.dateTimePicker1.Size = new System.Drawing.Size(265, 30);
             this.dateTimePicker1.TabIndex = 13;
             // 
-            // txt内容
+            // txtContent
             // 
-            this.txt内容.Font = new System.Drawing.Font("宋体", 12F);
-            this.txt内容.Location = new System.Drawing.Point(167, 125);
-            this.txt内容.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txt内容.MaxLength = 65536;
-            this.txt内容.Multiline = true;
-            this.txt内容.Name = "txt内容";
-            this.txt内容.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.txt内容.Size = new System.Drawing.Size(645, 374);
-            this.txt内容.TabIndex = 12;
-            this.txt内容.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStatus_KeyDown);
+            this.txtContent.Font = new System.Drawing.Font("宋体", 12F);
+            this.txtContent.Location = new System.Drawing.Point(167, 125);
+            this.txtContent.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtContent.MaxLength = 65536;
+            this.txtContent.Multiline = true;
+            this.txtContent.Name = "txtContent";
+            this.txtContent.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.txtContent.Size = new System.Drawing.Size(645, 374);
+            this.txtContent.TabIndex = 12;
+            this.txtContent.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStatus_KeyDown);
             // 
-            // txt标题
+            // txtTitle
             // 
-            this.txt标题.Font = new System.Drawing.Font("宋体", 12F);
-            this.txt标题.Location = new System.Drawing.Point(167, 49);
-            this.txt标题.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txt标题.Multiline = true;
-            this.txt标题.Name = "txt标题";
-            this.txt标题.Size = new System.Drawing.Size(361, 34);
-            this.txt标题.TabIndex = 11;
-            this.txt标题.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStatus_KeyDown);
+            this.txtTitle.Font = new System.Drawing.Font("宋体", 12F);
+            this.txtTitle.Location = new System.Drawing.Point(167, 49);
+            this.txtTitle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTitle.Multiline = true;
+            this.txtTitle.Name = "txtTitle";
+            this.txtTitle.Size = new System.Drawing.Size(361, 34);
+            this.txtTitle.TabIndex = 11;
+            this.txtTitle.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStatus_KeyDown);
             // 
             // label2
             // 
@@ -143,19 +143,19 @@
             this.label1.TabIndex = 9;
             this.label1.Text = "标题：";
             // 
-            // cmb分类
+            // cmbClassification
             // 
-            this.cmb分类.DropDownHeight = 116;
-            this.cmb分类.FormattingEnabled = true;
-            this.cmb分类.IntegralHeight = false;
-            this.cmb分类.Items.AddRange(new object[] {
+            this.cmbClassification.DropDownHeight = 116;
+            this.cmbClassification.FormattingEnabled = true;
+            this.cmbClassification.IntegralHeight = false;
+            this.cmbClassification.Items.AddRange(new object[] {
             "工作类",
             "技术类",
             "其他类"});
-            this.cmb分类.Location = new System.Drawing.Point(163, 597);
-            this.cmb分类.Name = "cmb分类";
-            this.cmb分类.Size = new System.Drawing.Size(270, 23);
-            this.cmb分类.TabIndex = 19;
+            this.cmbClassification.Location = new System.Drawing.Point(163, 597);
+            this.cmbClassification.Name = "cmbClassification";
+            this.cmbClassification.Size = new System.Drawing.Size(270, 23);
+            this.cmbClassification.TabIndex = 19;
             // 
             // label5
             // 
@@ -174,15 +174,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(832, 826);
             this.ControlBox = false;
-            this.Controls.Add(this.cmb分类);
+            this.Controls.Add(this.cmbClassification);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btn_save);
             this.Controls.Add(this.btn_back);
             this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.txt内容);
-            this.Controls.Add(this.txt标题);
+            this.Controls.Add(this.txtContent);
+            this.Controls.Add(this.txtTitle);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
@@ -203,11 +203,11 @@
         public System.Windows.Forms.Button btn_save;
         public System.Windows.Forms.Button btn_back;
         public System.Windows.Forms.DateTimePicker dateTimePicker1;
-        public System.Windows.Forms.TextBox txt内容;
-        public System.Windows.Forms.TextBox txt标题;
+        public System.Windows.Forms.TextBox txtContent;
+        public System.Windows.Forms.TextBox txtTitle;
         public System.Windows.Forms.Label label2;
         public System.Windows.Forms.Label label1;
         public System.Windows.Forms.Label label5;
-        public System.Windows.Forms.ComboBox cmb分类;
+        public System.Windows.Forms.ComboBox cmbClassification;
     }
 }
