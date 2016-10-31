@@ -104,7 +104,7 @@
             this.btn_help.Name = "btn_help";
             this.btn_help.Size = new System.Drawing.Size(87, 42);
             this.btn_help.TabIndex = 6;
-            this.btn_help.Text = "密 码";
+            this.btn_help.Text = "密码";
             this.btn_help.UseVisualStyleBackColor = true;
             this.btn_help.Click += new System.EventHandler(this.btn_help_Click);
             // 
@@ -123,7 +123,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(474, 462);
+            this.ClientSize = new System.Drawing.Size(470, 458);
             this.ControlBox = false;
             this.Controls.Add(this.btn_exit);
             this.Controls.Add(this.btn_help);
