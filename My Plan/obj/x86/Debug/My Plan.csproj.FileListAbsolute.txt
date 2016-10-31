@@ -45,3 +45,5 @@ C:\My Git Projects\My-Plan\My Plan\obj\x86\Debug\My Plan.pdb
 C:\Github Project\My Plan\obj\x86\Debug\My Plan.exe
 C:\Github Project\My Plan\obj\x86\Debug\My Plan.pdb
 C:\My Plan\My Plan\obj\x86\Debug\My Plan.csproj.GenerateResource.Cache
+D:\Github\My Plan\My Plan\obj\x86\Debug\My Plan.exe
+D:\Github\My Plan\My Plan\obj\x86\Debug\My Plan.pdb
