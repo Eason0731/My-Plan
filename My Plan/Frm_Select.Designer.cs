@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btn_choice = new System.Windows.Forms.Button();
             this.btn_gotoAdd = new System.Windows.Forms.Button();
             this.btn_view = new System.Windows.Forms.Button();
             this.btn_exit = new System.Windows.Forms.Button();
@@ -39,23 +38,11 @@
             this.lblDeltaDays = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // btn_choice
-            // 
-            this.btn_choice.Font = new System.Drawing.Font("宋体", 13F);
-            this.btn_choice.Location = new System.Drawing.Point(181, 75);
-            this.btn_choice.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btn_choice.Name = "btn_choice";
-            this.btn_choice.Size = new System.Drawing.Size(556, 50);
-            this.btn_choice.TabIndex = 0;
-            this.btn_choice.Text = "来做个抉择吧！";
-            this.btn_choice.UseVisualStyleBackColor = true;
-            this.btn_choice.Click += new System.EventHandler(this.btn_choice_Click);
-            // 
             // btn_gotoAdd
             // 
             this.btn_gotoAdd.Font = new System.Drawing.Font("宋体", 13F);
-            this.btn_gotoAdd.Location = new System.Drawing.Point(181, 185);
-            this.btn_gotoAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_gotoAdd.Location = new System.Drawing.Point(182, 150);
+            this.btn_gotoAdd.Margin = new System.Windows.Forms.Padding(4);
             this.btn_gotoAdd.Name = "btn_gotoAdd";
             this.btn_gotoAdd.Size = new System.Drawing.Size(556, 50);
             this.btn_gotoAdd.TabIndex = 1;
@@ -66,8 +53,8 @@
             // btn_view
             // 
             this.btn_view.Font = new System.Drawing.Font("宋体", 13F);
-            this.btn_view.Location = new System.Drawing.Point(181, 292);
-            this.btn_view.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_view.Location = new System.Drawing.Point(182, 257);
+            this.btn_view.Margin = new System.Windows.Forms.Padding(4);
             this.btn_view.Name = "btn_view";
             this.btn_view.Size = new System.Drawing.Size(556, 50);
             this.btn_view.TabIndex = 2;
@@ -78,8 +65,8 @@
             // btn_exit
             // 
             this.btn_exit.Font = new System.Drawing.Font("宋体", 13F);
-            this.btn_exit.Location = new System.Drawing.Point(180, 410);
-            this.btn_exit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_exit.Location = new System.Drawing.Point(181, 375);
+            this.btn_exit.Margin = new System.Windows.Forms.Padding(4);
             this.btn_exit.Name = "btn_exit";
             this.btn_exit.Size = new System.Drawing.Size(556, 50);
             this.btn_exit.TabIndex = 3;
@@ -143,7 +130,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(923, 660);
+            this.ClientSize = new System.Drawing.Size(919, 656);
             this.ControlBox = false;
             this.Controls.Add(this.lblDeltaDays);
             this.Controls.Add(this.label2);
@@ -153,9 +140,8 @@
             this.Controls.Add(this.btn_exit);
             this.Controls.Add(this.btn_view);
             this.Controls.Add(this.btn_gotoAdd);
-            this.Controls.Add(this.btn_choice);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Frm_Select";
             this.ShowIcon = false;
             this.Text = "命运的抉择";
@@ -166,8 +152,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btn_choice;
         private System.Windows.Forms.Button btn_gotoAdd;
         private System.Windows.Forms.Button btn_view;
         private System.Windows.Forms.Button btn_exit;

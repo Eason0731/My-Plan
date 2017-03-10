@@ -19,10 +19,10 @@ namespace My_Plan
 
         private void Frm_Select_Load(object sender, EventArgs e)
         {
-            label1.Text = "今天是";
-            label2.Text = "天";
-            lblNowDate.Text = DateTime.Now.ToLongDateString(); //ToLongDateString()会将日期输出为长日期字符输出
-            CalDate();
+            //label1.Text = "今天是";
+            //label2.Text = "天";
+           // lblNowDate.Text = DateTime.Now.ToLongDateString(); //ToLongDateString()会将日期输出为长日期字符输出
+            //CalDate();
         }
 
         private void btn_choice_Click(object sender, EventArgs e)
@@ -51,6 +51,8 @@ namespace My_Plan
             Environment.Exit(0); //彻底退出程序
         }
 
+       
+       /*
         private void CalDate()
         {
             DateTime TargetDate = new DateTime(2018, 8, 24); //DateTime定义三年后的日期,2018年8月24日
@@ -70,7 +72,9 @@ namespace My_Plan
                 lblCustom.Text = "三年期限已经过去";
                 lblDeltaDays.Text = deltaDays.ToString();
             }
-        }
+        */
+
+
 
     }
 }
