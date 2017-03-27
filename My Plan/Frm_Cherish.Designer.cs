@@ -37,7 +37,7 @@
             this.lbl_end = new System.Windows.Forms.Label();
             this.lbl_total = new System.Windows.Forms.Label();
             this.lbl_day = new System.Windows.Forms.Label();
-            this.lbl_comeon = new System.Windows.Forms.Label();
+            this.lbl_comeon = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btn_back
@@ -55,34 +55,34 @@
             // lbl_enddate
             // 
             this.lbl_enddate.AutoSize = true;
-            this.lbl_enddate.Font = new System.Drawing.Font("宋体", 13F);
+            this.lbl_enddate.Font = new System.Drawing.Font("宋体", 14F);
             this.lbl_enddate.Location = new System.Drawing.Point(81, 181);
             this.lbl_enddate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_enddate.Name = "lbl_enddate";
-            this.lbl_enddate.Size = new System.Drawing.Size(54, 22);
+            this.lbl_enddate.Size = new System.Drawing.Size(58, 24);
             this.lbl_enddate.TabIndex = 8;
             this.lbl_enddate.Text = "lbl2";
             // 
             // lbl_startdate
             // 
             this.lbl_startdate.AutoSize = true;
-            this.lbl_startdate.Font = new System.Drawing.Font("宋体", 13F);
+            this.lbl_startdate.Font = new System.Drawing.Font("宋体", 14F);
             this.lbl_startdate.Location = new System.Drawing.Point(81, 126);
             this.lbl_startdate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_startdate.Name = "lbl_startdate";
-            this.lbl_startdate.Size = new System.Drawing.Size(54, 22);
+            this.lbl_startdate.Size = new System.Drawing.Size(58, 24);
             this.lbl_startdate.TabIndex = 6;
             this.lbl_startdate.Text = "lbl1";
             // 
             // lbl_count
             // 
             this.lbl_count.AutoSize = true;
-            this.lbl_count.Font = new System.Drawing.Font("宋体", 13F);
+            this.lbl_count.Font = new System.Drawing.Font("宋体", 14F);
             this.lbl_count.ForeColor = System.Drawing.Color.Red;
-            this.lbl_count.Location = new System.Drawing.Point(319, 238);
+            this.lbl_count.Location = new System.Drawing.Point(344, 238);
             this.lbl_count.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_count.Name = "lbl_count";
-            this.lbl_count.Size = new System.Drawing.Size(43, 22);
+            this.lbl_count.Size = new System.Drawing.Size(46, 24);
             this.lbl_count.TabIndex = 5;
             this.lbl_count.Text = "lbl";
             // 
@@ -100,56 +100,57 @@
             // lbl_start
             // 
             this.lbl_start.AutoSize = true;
-            this.lbl_start.Font = new System.Drawing.Font("宋体", 13F);
+            this.lbl_start.Font = new System.Drawing.Font("宋体", 14F);
             this.lbl_start.Location = new System.Drawing.Point(224, 126);
             this.lbl_start.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_start.Name = "lbl_start";
-            this.lbl_start.Size = new System.Drawing.Size(76, 22);
+            this.lbl_start.Size = new System.Drawing.Size(82, 24);
             this.lbl_start.TabIndex = 11;
             this.lbl_start.Text = "label5";
             // 
             // lbl_end
             // 
             this.lbl_end.AutoSize = true;
-            this.lbl_end.Font = new System.Drawing.Font("宋体", 13F);
+            this.lbl_end.Font = new System.Drawing.Font("宋体", 14F);
             this.lbl_end.Location = new System.Drawing.Point(224, 181);
             this.lbl_end.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_end.Name = "lbl_end";
-            this.lbl_end.Size = new System.Drawing.Size(76, 22);
+            this.lbl_end.Size = new System.Drawing.Size(82, 24);
             this.lbl_end.TabIndex = 12;
             this.lbl_end.Text = "label6";
             // 
             // lbl_total
             // 
             this.lbl_total.AutoSize = true;
-            this.lbl_total.Font = new System.Drawing.Font("宋体", 13F);
+            this.lbl_total.Font = new System.Drawing.Font("宋体", 14F);
             this.lbl_total.Location = new System.Drawing.Point(81, 238);
             this.lbl_total.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_total.Name = "lbl_total";
-            this.lbl_total.Size = new System.Drawing.Size(109, 22);
+            this.lbl_total.Size = new System.Drawing.Size(118, 24);
             this.lbl_total.TabIndex = 13;
             this.lbl_total.Text = "lbl_total";
             // 
             // lbl_day
             // 
             this.lbl_day.AutoSize = true;
-            this.lbl_day.Font = new System.Drawing.Font("宋体", 13F);
-            this.lbl_day.Location = new System.Drawing.Point(370, 238);
+            this.lbl_day.Font = new System.Drawing.Font("宋体", 14F);
+            this.lbl_day.Location = new System.Drawing.Point(395, 238);
             this.lbl_day.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_day.Name = "lbl_day";
-            this.lbl_day.Size = new System.Drawing.Size(0, 22);
+            this.lbl_day.Size = new System.Drawing.Size(0, 24);
             this.lbl_day.TabIndex = 14;
             // 
             // lbl_comeon
             // 
-            this.lbl_comeon.AutoSize = true;
-            this.lbl_comeon.Font = new System.Drawing.Font("宋体", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_comeon.Location = new System.Drawing.Point(81, 297);
-            this.lbl_comeon.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_comeon.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.lbl_comeon.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Bold);
+            this.lbl_comeon.Location = new System.Drawing.Point(83, 298);
+            this.lbl_comeon.Margin = new System.Windows.Forms.Padding(4);
+            this.lbl_comeon.Multiline = true;
             this.lbl_comeon.Name = "lbl_comeon";
-            this.lbl_comeon.Size = new System.Drawing.Size(140, 23);
-            this.lbl_comeon.TabIndex = 15;
-            this.lbl_comeon.Text = "lbl_comeon";
+            this.lbl_comeon.ReadOnly = true;
+            this.lbl_comeon.Size = new System.Drawing.Size(581, 66);
+            this.lbl_comeon.TabIndex = 27;
             // 
             // Frm_Cherish
             // 
@@ -188,6 +189,6 @@
         private System.Windows.Forms.Label lbl_end;
         private System.Windows.Forms.Label lbl_total;
         private System.Windows.Forms.Label lbl_day;
-        private System.Windows.Forms.Label lbl_comeon;
+        private System.Windows.Forms.TextBox lbl_comeon;
     }
 }

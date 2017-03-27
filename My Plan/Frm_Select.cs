@@ -41,7 +41,7 @@ namespace My_Plan
 
         private void btn_view_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
             Frm_View frm3 = new Frm_View();
             frm3.Show();
         }
@@ -55,7 +55,7 @@ namespace My_Plan
         {
             this.Close();
             Frm_Cherish frm4 = new Frm_Cherish();
-            frm4.ShowDialog();
+            frm4.Show();
         }
 
 
