@@ -52,6 +52,12 @@
     <Compile Include="Frm_AddNote.Designer.cs">
       <DependentUpon>Frm_AddNote.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_Cherish.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Cherish.Designer.cs">
+      <DependentUpon>Frm_Cherish.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Edit.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +98,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Frm_AddNote.resx">
       <DependentUpon>Frm_AddNote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Cherish.resx">
+      <DependentUpon>Frm_Cherish.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Edit.resx">
       <DependentUpon>Frm_Edit.cs</DependentUpon>

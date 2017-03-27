@@ -137,12 +137,13 @@
             this.btn_viewDate.TabIndex = 9;
             this.btn_viewDate.Text = "查看在AutoDesk的工作时间";
             this.btn_viewDate.UseVisualStyleBackColor = true;
+            this.btn_viewDate.Click += new System.EventHandler(this.btn_viewDate_Click);
             // 
             // Frm_Select
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(915, 652);
+            this.ClientSize = new System.Drawing.Size(911, 648);
             this.ControlBox = false;
             this.Controls.Add(this.btn_viewDate);
             this.Controls.Add(this.lblDeltaDays);
