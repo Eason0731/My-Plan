@@ -26,3 +26,4 @@ C:\My Plan\My Plan\obj\x86\Release\My_Plan.Frm_View.resources
 C:\My Plan\My Plan\obj\x86\Release\My_Plan.Frm_ViewNoteDetail.resources
 C:\My Plan\My Plan\obj\x86\Release\My_Plan.Properties.Resources.resources
 C:\My Plan\My Plan\obj\x86\Release\My Plan.csproj.GenerateResource.Cache
+C:\My Plan\My Plan\obj\x86\Release\My_Plan.Frm_Cherish.resources
