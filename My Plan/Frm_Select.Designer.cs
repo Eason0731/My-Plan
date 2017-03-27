@@ -36,12 +36,13 @@
             this.lblCustom = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lblDeltaDays = new System.Windows.Forms.Label();
+            this.btn_viewDate = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_gotoAdd
             // 
             this.btn_gotoAdd.Font = new System.Drawing.Font("宋体", 13F);
-            this.btn_gotoAdd.Location = new System.Drawing.Point(182, 150);
+            this.btn_gotoAdd.Location = new System.Drawing.Point(181, 209);
             this.btn_gotoAdd.Margin = new System.Windows.Forms.Padding(4);
             this.btn_gotoAdd.Name = "btn_gotoAdd";
             this.btn_gotoAdd.Size = new System.Drawing.Size(556, 50);
@@ -53,7 +54,7 @@
             // btn_view
             // 
             this.btn_view.Font = new System.Drawing.Font("宋体", 13F);
-            this.btn_view.Location = new System.Drawing.Point(182, 257);
+            this.btn_view.Location = new System.Drawing.Point(181, 316);
             this.btn_view.Margin = new System.Windows.Forms.Padding(4);
             this.btn_view.Name = "btn_view";
             this.btn_view.Size = new System.Drawing.Size(556, 50);
@@ -65,7 +66,7 @@
             // btn_exit
             // 
             this.btn_exit.Font = new System.Drawing.Font("宋体", 13F);
-            this.btn_exit.Location = new System.Drawing.Point(181, 375);
+            this.btn_exit.Location = new System.Drawing.Point(180, 427);
             this.btn_exit.Margin = new System.Windows.Forms.Padding(4);
             this.btn_exit.Name = "btn_exit";
             this.btn_exit.Size = new System.Drawing.Size(556, 50);
@@ -126,12 +127,24 @@
             this.lblDeltaDays.Size = new System.Drawing.Size(0, 24);
             this.lblDeltaDays.TabIndex = 8;
             // 
+            // btn_viewDate
+            // 
+            this.btn_viewDate.Font = new System.Drawing.Font("宋体", 13F);
+            this.btn_viewDate.Location = new System.Drawing.Point(180, 112);
+            this.btn_viewDate.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_viewDate.Name = "btn_viewDate";
+            this.btn_viewDate.Size = new System.Drawing.Size(556, 50);
+            this.btn_viewDate.TabIndex = 9;
+            this.btn_viewDate.Text = "查看在AutoDesk的工作时间";
+            this.btn_viewDate.UseVisualStyleBackColor = true;
+            // 
             // Frm_Select
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(919, 656);
+            this.ClientSize = new System.Drawing.Size(915, 652);
             this.ControlBox = false;
+            this.Controls.Add(this.btn_viewDate);
             this.Controls.Add(this.lblDeltaDays);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblCustom);
@@ -144,7 +157,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Frm_Select";
             this.ShowIcon = false;
-            this.Text = "命运的抉择";
+            this.Text = "选择";
             this.Load += new System.EventHandler(this.Frm_Select_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -160,5 +173,6 @@
         private System.Windows.Forms.Label lblCustom;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lblDeltaDays;
+        private System.Windows.Forms.Button btn_viewDate;
     }
 }
