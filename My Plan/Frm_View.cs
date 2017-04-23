@@ -123,7 +123,7 @@ namespace My_Plan
             else
             {
                 MessageBoxButtons messButton = MessageBoxButtons.OKCancel;
-                DialogResult dr = MessageBox.Show("是否确定删除？", "Autodesk", messButton);
+                DialogResult dr = MessageBox.Show("是否确定删除？", "提示", messButton);
 
             if (dr == DialogResult.OK)//如果点击“确定”按钮
             {
@@ -163,7 +163,7 @@ namespace My_Plan
             else
             {
                 MessageBoxButtons messButton = MessageBoxButtons.OKCancel;
-                DialogResult dr = MessageBox.Show("确定要查看笔记？", "Autodesk", messButton);
+                DialogResult dr = MessageBox.Show("确定要查看笔记？", "提示", messButton);
 
                 if (dr == DialogResult.OK)//如果点击“确定”按钮
                 {
@@ -201,7 +201,7 @@ namespace My_Plan
             else
             {
                 MessageBoxButtons messButton = MessageBoxButtons.OKCancel;
-                DialogResult dr = MessageBox.Show("确定要更新数据？", "Autodesk", messButton);
+                DialogResult dr = MessageBox.Show("确定要更新数据？", "提示", messButton);
 
             if (dr == DialogResult.OK)//如果点击“确定”按钮
             {
