@@ -44,7 +44,7 @@ namespace My_Plan
         {
             OleDbConnection myCon = new OleDbConnection(Conn); //连接到数据库
 
-            string myStr1 = "select [id],[title] as 笔记标题,[content] as 笔记内容,[datetime] as 记录时间, [class] as 笔记分类 from [Note] where 1=1";
+            string myStr1 = "select [id],[title] as 笔记标题,[content] as 笔记内容,[datetime] as 记录时间, [class] as 笔记分类, [company] as 所在公司 from [Note] where 1=1";
             if ( txtTitle.Text != "" )
             {
                 string TempTitle = "";
@@ -228,7 +228,7 @@ namespace My_Plan
         {
             OleDbConnection myCon = new OleDbConnection(Conn); //连接到数据库
 
-            string myStr1 = "select [id],[title] as 笔记标题,[content] as 笔记内容,[datetime] as 记录时间, [class] as 笔记分类 from [Note]";
+            string myStr1 = "select [id],[title] as 笔记标题,[content] as 笔记内容,[datetime] as 记录时间, [class] as 笔记分类, [company] as 所在公司 from [Note]";
 
             OleDbDataAdapter myAda = new OleDbDataAdapter(myStr1, myCon); //在连接好的数据库中打开已连接的表
             DataSet mySet = new DataSet(); //声明一个记录集
@@ -258,7 +258,7 @@ namespace My_Plan
             //通过搜索一个不存在的字符，去清空当前搜索结果
             OleDbConnection myCon = new OleDbConnection(Conn); //连接到数据库
 
-            string myStr1 = "select [id],[title] as 笔记标题,[content] as 笔记内容,[datetime] as 记录时间, [class] as 笔记分类 from [Note] where [content] = 'It is impossible to search current result!' ";
+            string myStr1 = "select [id],[title] as 笔记标题,[content] as 笔记内容,[datetime] as 记录时间, [class] as 笔记分类,[company] as 所在公司 from [Note] where [content] = 'It is impossible to search current result!' ";
 
             OleDbDataAdapter myAda = new OleDbDataAdapter(myStr1, myCon); //在连接好的数据库中打开已连接的表
             DataSet mySet = new DataSet(); //声明一个记录集

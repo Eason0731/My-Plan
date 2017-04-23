@@ -76,7 +76,7 @@ namespace My_Plan
                 // 转换后：insert into [Note] ([title],[content],[datetime]) values ('GFFG' , 'files = open (r‘D\Abc\1.txt’,''r'')', '2016/9/10')
                 // 显示的结果还是会显示为一个单引号的值
 
-                string insStr = "insert into [Note] ([title],[content],[datetime],[class]) values ('" + Title + "' , '" + Content + "', '" + dateTimePicker1.Value.ToShortDateString() + "', '" + cmbClassification.Text + "')";
+                string insStr = "insert into [Note] ([title],[content],[datetime],[class],[company]) values ('" + Title + "' , '" + Content + "', '" + dateTimePicker1.Value.ToShortDateString() + "', '" + cmbClassification.Text + "','中国电信')";
 
                 //将表和字段名都加上中括号，否则可能会出现语法错误
                 OleDbCommand myCmd = new OleDbCommand(insStr, myconn);
