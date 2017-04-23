@@ -43,6 +43,8 @@
             this.btn_cleanresult = new System.Windows.Forms.Button();
             this.cmbClassification = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.cmbCompany = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -108,7 +110,7 @@
             // btn_select
             // 
             this.btn_select.Font = new System.Drawing.Font("宋体", 12F);
-            this.btn_select.Location = new System.Drawing.Point(502, 450);
+            this.btn_select.Location = new System.Drawing.Point(502, 489);
             this.btn_select.Margin = new System.Windows.Forms.Padding(4);
             this.btn_select.Name = "btn_select";
             this.btn_select.Size = new System.Drawing.Size(161, 49);
@@ -177,7 +179,7 @@
             // btn_clean
             // 
             this.btn_clean.Font = new System.Drawing.Font("宋体", 12F);
-            this.btn_clean.Location = new System.Drawing.Point(502, 523);
+            this.btn_clean.Location = new System.Drawing.Point(502, 562);
             this.btn_clean.Margin = new System.Windows.Forms.Padding(4);
             this.btn_clean.Name = "btn_clean";
             this.btn_clean.Size = new System.Drawing.Size(161, 49);
@@ -189,7 +191,7 @@
             // btn_cleanresult
             // 
             this.btn_cleanresult.Font = new System.Drawing.Font("宋体", 12F);
-            this.btn_cleanresult.Location = new System.Drawing.Point(697, 450);
+            this.btn_cleanresult.Location = new System.Drawing.Point(697, 489);
             this.btn_cleanresult.Margin = new System.Windows.Forms.Padding(4);
             this.btn_cleanresult.Name = "btn_cleanresult";
             this.btn_cleanresult.Size = new System.Drawing.Size(161, 49);
@@ -224,12 +226,38 @@
             this.label5.TabIndex = 28;
             this.label5.Text = "笔记分类：";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("宋体", 12F);
+            this.label3.Location = new System.Drawing.Point(498, 415);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(109, 20);
+            this.label3.TabIndex = 30;
+            this.label3.Text = "所在公司：";
+            // 
+            // cmbCompany
+            // 
+            this.cmbCompany.DropDownHeight = 116;
+            this.cmbCompany.FormattingEnabled = true;
+            this.cmbCompany.IntegralHeight = false;
+            this.cmbCompany.Items.AddRange(new object[] {
+            "AutoDesk",
+            "中国电信"});
+            this.cmbCompany.Location = new System.Drawing.Point(620, 416);
+            this.cmbCompany.Name = "cmbCompany";
+            this.cmbCompany.Size = new System.Drawing.Size(270, 23);
+            this.cmbCompany.TabIndex = 31;
+            // 
             // Frm_View
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(957, 856);
+            this.ClientSize = new System.Drawing.Size(953, 852);
             this.ControlBox = false;
+            this.Controls.Add(this.cmbCompany);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.cmbClassification);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btn_cleanresult);
@@ -274,5 +302,7 @@
         private System.Windows.Forms.Button btn_cleanresult;
         private System.Windows.Forms.ComboBox cmbClassification;
         public System.Windows.Forms.Label label5;
+        public System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ComboBox cmbCompany;
     }
 }

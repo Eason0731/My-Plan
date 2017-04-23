@@ -82,7 +82,10 @@ namespace My_Plan
                 myStr1 += " and [class] = '"+ cmbClassification.Text+"' ";
             }
 
-            
+            if (cmbCompany.Text != "")
+            {
+                myStr1 += " and [company] = '"+ cmbCompany.Text + "'";
+            }
 
             // 将txtContent.Text读取到的包含单引号的值，替换为两个单引号字符。例如'r',会转成r。否则不转换无法写进数据库。因为不转换就是''r''包含单引号的字符无法写入数据库
             // 转换前：insert into [Note] ([title],[content],[datetime]) values ('111' , 'files = open (r‘D\Abc\1.txt’,'r')', '2016/9/10')
@@ -251,6 +254,7 @@ namespace My_Plan
             txtTitle.Text = "";
             txtContent.Text = "";
             cmbClassification.Text = "";
+            cmbCompany.Text = "";
         }
 
         private void btn_cleanresult_Click(object sender, EventArgs e)
