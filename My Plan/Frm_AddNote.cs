@@ -35,7 +35,7 @@ namespace My_Plan
         private void btn_save_Click(object sender, EventArgs e)
         {
             string Conn = "provider=microsoft.jet.oledb.4.0;";
-            Conn += " data source=AutoDesk.mdb";
+            Conn += " data source=MyData.mdb";
             OleDbConnection myconn = new OleDbConnection(Conn);
             myconn.Open();
 

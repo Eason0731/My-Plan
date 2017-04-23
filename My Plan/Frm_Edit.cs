@@ -13,7 +13,7 @@ namespace My_Plan
     public partial class Frm_Edit : Form
     {
         DataRow row_Frm_Edit;
-        string Conn = "provider=microsoft.jet.oledb.4.0;data source=AutoDesk.mdb";
+        string Conn = "provider=microsoft.jet.oledb.4.0;data source=MyData.mdb";
         String idnumber;
 
        
