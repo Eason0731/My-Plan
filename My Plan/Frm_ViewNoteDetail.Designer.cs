@@ -37,13 +37,15 @@
             this.txtTitle = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txt笔记分类 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtCompany = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("宋体", 12F);
-            this.label3.Location = new System.Drawing.Point(39, 671);
+            this.label3.Location = new System.Drawing.Point(38, 693);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(109, 20);
@@ -53,7 +55,7 @@
             // btn_back
             // 
             this.btn_back.Font = new System.Drawing.Font("宋体", 12F);
-            this.btn_back.Location = new System.Drawing.Point(378, 743);
+            this.btn_back.Location = new System.Drawing.Point(378, 748);
             this.btn_back.Margin = new System.Windows.Forms.Padding(4);
             this.btn_back.Name = "btn_back";
             this.btn_back.Size = new System.Drawing.Size(100, 42);
@@ -65,7 +67,7 @@
             // dateTimePicker1
             // 
             this.dateTimePicker1.Font = new System.Drawing.Font("宋体", 12F);
-            this.dateTimePicker1.Location = new System.Drawing.Point(165, 665);
+            this.dateTimePicker1.Location = new System.Drawing.Point(164, 687);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(265, 30);
@@ -141,12 +143,36 @@
             this.txt笔记分类.TabIndex = 29;
             this.txt笔记分类.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStatus_KeyDown);
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("宋体", 12F);
+            this.label5.Location = new System.Drawing.Point(39, 638);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(109, 20);
+            this.label5.TabIndex = 30;
+            this.label5.Text = "所在公司：";
+            // 
+            // txtCompany
+            // 
+            this.txtCompany.Font = new System.Drawing.Font("宋体", 12F);
+            this.txtCompany.Location = new System.Drawing.Point(165, 635);
+            this.txtCompany.Margin = new System.Windows.Forms.Padding(4);
+            this.txtCompany.Multiline = true;
+            this.txtCompany.Name = "txtCompany";
+            this.txtCompany.ReadOnly = true;
+            this.txtCompany.Size = new System.Drawing.Size(343, 34);
+            this.txtCompany.TabIndex = 31;
+            // 
             // Frm_ViewNoteDetail
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(815, 809);
+            this.ClientSize = new System.Drawing.Size(811, 805);
             this.ControlBox = false;
+            this.Controls.Add(this.txtCompany);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.txt笔记分类);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtContent);
@@ -178,5 +204,7 @@
         public System.Windows.Forms.TextBox txtTitle;
         public System.Windows.Forms.Label label4;
         public System.Windows.Forms.TextBox txt笔记分类;
+        public System.Windows.Forms.Label label5;
+        public System.Windows.Forms.TextBox txtCompany;
     }
 }

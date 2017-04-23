@@ -32,7 +32,7 @@ namespace My_Plan
             string Title = "";
             string Content = "";
             
-            if (txtTitle.Text == "" || txtContent.Text == "" || cmbClassification.Text == "")
+            if (txtTitle.Text == "" || txtContent.Text == "" || cmbClassification.Text == "" || cmbCompany.Text =="")
             {
                 MessageBox.Show("标题,内容或分类中有空值,空的笔记没有任何意义,是不会更新的！");
             }
@@ -67,7 +67,7 @@ namespace My_Plan
                 // 转换后：insert into [Note] ([title],[content],[datetime]) values ('GFFG' , 'files = open (r‘D\Abc\1.txt’,''r'')', '2016/9/10')
                 // 显示的结果还是会显示为一个单引号的值
 
-                string updateStr = " update [Note] set [title] ='" + Title + "',[content] ='" + Content + "', [datetime] = '" + dateTimePicker1.Value.ToShortDateString() + "', [class] = '"+ cmbClassification.Text+"' where ID=" + idnumber + "";
+                string updateStr = " update [Note] set [title] ='" + Title + "',[content] ='" + Content + "', [datetime] = '" + dateTimePicker1.Value.ToShortDateString() + "', [class] = '"+ cmbClassification.Text+"' ,[company] = '"+ cmbCompany.Text+"' where ID=" + idnumber + "";
                 OleDbCommand myCmd = new OleDbCommand(updateStr, myCon);
                 myCmd.ExecuteNonQuery();
                 myCon.Close();
