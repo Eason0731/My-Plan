@@ -36,7 +36,7 @@
             this.txtContent = new System.Windows.Forms.TextBox();
             this.txtTitle = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.txt笔记分类 = new System.Windows.Forms.TextBox();
+            this.txtClassification = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.txtCompany = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
@@ -131,17 +131,17 @@
             this.label4.TabIndex = 28;
             this.label4.Text = "笔记分类：";
             // 
-            // txt笔记分类
+            // txtClassification
             // 
-            this.txt笔记分类.Font = new System.Drawing.Font("宋体", 12F);
-            this.txt笔记分类.Location = new System.Drawing.Point(165, 583);
-            this.txt笔记分类.Margin = new System.Windows.Forms.Padding(4);
-            this.txt笔记分类.Multiline = true;
-            this.txt笔记分类.Name = "txt笔记分类";
-            this.txt笔记分类.ReadOnly = true;
-            this.txt笔记分类.Size = new System.Drawing.Size(343, 34);
-            this.txt笔记分类.TabIndex = 29;
-            this.txt笔记分类.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStatus_KeyDown);
+            this.txtClassification.Font = new System.Drawing.Font("宋体", 12F);
+            this.txtClassification.Location = new System.Drawing.Point(165, 583);
+            this.txtClassification.Margin = new System.Windows.Forms.Padding(4);
+            this.txtClassification.Multiline = true;
+            this.txtClassification.Name = "txtClassification";
+            this.txtClassification.ReadOnly = true;
+            this.txtClassification.Size = new System.Drawing.Size(343, 34);
+            this.txtClassification.TabIndex = 29;
+            this.txtClassification.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStatus_KeyDown);
             // 
             // label5
             // 
@@ -173,7 +173,7 @@
             this.ControlBox = false;
             this.Controls.Add(this.txtCompany);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.txt笔记分类);
+            this.Controls.Add(this.txtClassification);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtContent);
             this.Controls.Add(this.txtTitle);
@@ -203,7 +203,7 @@
         public System.Windows.Forms.TextBox txtContent;
         public System.Windows.Forms.TextBox txtTitle;
         public System.Windows.Forms.Label label4;
-        public System.Windows.Forms.TextBox txt笔记分类;
+        public System.Windows.Forms.TextBox txtClassification;
         public System.Windows.Forms.Label label5;
         public System.Windows.Forms.TextBox txtCompany;
     }

@@ -176,7 +176,7 @@ namespace My_Plan
                     frm_viewdetail.txtTitle.Text = row["笔记标题"].ToString();
                     frm_viewdetail.txtContent.Text = row["笔记内容"].ToString();
                     frm_viewdetail.dateTimePicker1.Text = row["记录时间"].ToString();
-                    frm_viewdetail.txt笔记分类.Text = row["笔记分类"].ToString();
+                    frm_viewdetail.txtClassification.Text = row["笔记分类"].ToString();
                     frm_viewdetail.txtCompany.Text = row["所在公司"].ToString();
 
                     frm_viewdetail.ShowDialog();
