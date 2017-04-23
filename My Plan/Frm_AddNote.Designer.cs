@@ -40,6 +40,8 @@
             this.btn_reset = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.cmbClassification = new System.Windows.Forms.ComboBox();
+            this.cmbCompany = new System.Windows.Forms.ComboBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -91,7 +93,7 @@
             // dateTimePicker1
             // 
             this.dateTimePicker1.Font = new System.Drawing.Font("宋体", 12F);
-            this.dateTimePicker1.Location = new System.Drawing.Point(161, 661);
+            this.dateTimePicker1.Location = new System.Drawing.Point(161, 674);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(265, 30);
@@ -125,7 +127,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("宋体", 12F);
-            this.label3.Location = new System.Drawing.Point(36, 665);
+            this.label3.Location = new System.Drawing.Point(36, 678);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(109, 20);
@@ -181,12 +183,38 @@
             this.cmbClassification.Size = new System.Drawing.Size(270, 23);
             this.cmbClassification.TabIndex = 13;
             // 
+            // cmbCompany
+            // 
+            this.cmbCompany.DropDownHeight = 116;
+            this.cmbCompany.FormattingEnabled = true;
+            this.cmbCompany.IntegralHeight = false;
+            this.cmbCompany.Items.AddRange(new object[] {
+            "AutoDesk",
+            "中国电信"});
+            this.cmbCompany.Location = new System.Drawing.Point(161, 628);
+            this.cmbCompany.Name = "cmbCompany";
+            this.cmbCompany.Size = new System.Drawing.Size(270, 23);
+            this.cmbCompany.TabIndex = 33;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("宋体", 12F);
+            this.label6.Location = new System.Drawing.Point(39, 627);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(109, 20);
+            this.label6.TabIndex = 32;
+            this.label6.Text = "所在公司：";
+            // 
             // Frm_AddNote
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(817, 812);
+            this.ClientSize = new System.Drawing.Size(813, 808);
             this.ControlBox = false;
+            this.Controls.Add(this.cmbCompany);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.cmbClassification);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btn_reset);
@@ -224,6 +252,7 @@
         public System.Windows.Forms.Button btn_reset;
         public System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox cmbClassification;
-
+        private System.Windows.Forms.ComboBox cmbCompany;
+        public System.Windows.Forms.Label label6;
     }
 }
