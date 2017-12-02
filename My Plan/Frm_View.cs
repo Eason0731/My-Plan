@@ -83,7 +83,7 @@ namespace My_Plan
                 myStr1 += " and [class] = '" + cmbClassification.Text + "' ";
             }
 
-            else if (cmbClassification.Text == "全部") {
+            else {
                 myStr1 += "";
             }
 
@@ -92,7 +92,7 @@ namespace My_Plan
                 myStr1 += " and [company] = '"+ cmbCompany.Text + "'";
             }
 
-            else if (cmbCompany.Text == "全部")
+            else
             {
                 myStr1 += "";
             }
