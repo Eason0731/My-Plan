@@ -18,6 +18,7 @@ namespace My_Plan
         public Frm_View()
         {
             InitializeComponent();
+            
         }
 
         private void Frm_View_Load(object sender, EventArgs e)
@@ -27,9 +28,8 @@ namespace My_Plan
             dataGridView1.AllowUserToAddRows = false;
             //不显示datagridview的最后一行
             dataGridView1.DataSource = "";
-
             //cmbClassification.SelectedIndex = 0;
-            
+
         }
 
        
@@ -87,6 +87,7 @@ namespace My_Plan
                 myStr1 += " and [company] = '"+ cmbCompany.Text + "'";
             }
 
+            myStr1 += " order by [id] desc";
             // 将txtContent.Text读取到的包含单引号的值，替换为两个单引号字符。例如'r',会转成r。否则不转换无法写进数据库。因为不转换就是''r''包含单引号的字符无法写入数据库
             // 转换前：insert into [Note] ([title],[content],[datetime]) values ('111' , 'files = open (r‘D\Abc\1.txt’,'r')', '2016/9/10')
             // 转换后：insert into [Note] ([title],[content],[datetime]) values ('GFFG' , 'files = open (r‘D\Abc\1.txt’,''r'')', '2016/9/10')
@@ -97,6 +98,7 @@ namespace My_Plan
             myAda.Fill(mySet, "myData"); //将表中读取到的数据填充到记录集中，并取名为myData
             dataGridView1.DataSource = mySet; //设定显示控件的数据源
             dataGridView1.DataMember = "myData"; //将表格myData的内容绑定到显示控件
+            dataGridView1.Columns[0].Visible = false; //搜索结果不显示第一列ID的内容，但因为后续查询中需要ID作为搜索字段，故隐藏之
             myCon.Close();
         }
 
@@ -217,7 +219,7 @@ namespace My_Plan
                 frm_update.cmbClassification.Text = row["笔记分类"].ToString();
                 frm_update.cmbCompany.Text = row["所在公司"].ToString();
 
-                    frm_update.ShowDialog();
+                frm_update.ShowDialog();
                 SelectAll(); //刷新数据
 
             }
@@ -233,13 +235,14 @@ namespace My_Plan
         {
             OleDbConnection myCon = new OleDbConnection(Conn); //连接到数据库
 
-            string myStr1 = "select [id],[title] as 笔记标题,[content] as 笔记内容,[datetime] as 记录时间, [class] as 笔记分类, [company] as 所在公司 from [Note]";
+            string myStr1 = "select [id],[title] as 笔记标题,[content] as 笔记内容,[datetime] as 记录时间, [class] as 笔记分类, [company] as 所在公司 from [Note] order by [id] desc";
 
             OleDbDataAdapter myAda = new OleDbDataAdapter(myStr1, myCon); //在连接好的数据库中打开已连接的表
             DataSet mySet = new DataSet(); //声明一个记录集
             myAda.Fill(mySet, "myData"); //将表中读取到的数据填充到记录集中，并取名为myData
             dataGridView1.DataSource = mySet; //设定显示控件的数据源
             dataGridView1.DataMember = "myData"; //将表格myData的内容绑定到显示控件
+            dataGridView1.Columns[0].Visible = false; //搜索结果不显示第一列ID的内容，但因为后续查询中需要ID作为搜索字段，故隐藏之
             myCon.Close();
         }
 

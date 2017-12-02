@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btn_back = new System.Windows.Forms.Button();
             this.btn_selectAll = new System.Windows.Forms.Button();
             this.btn_update = new System.Windows.Forms.Button();
@@ -45,19 +44,9 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.cmbCompany = new System.Windows.Forms.ComboBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(0, -2);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
-            this.dataGridView1.MultiSelect = false;
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(944, 309);
-            this.dataGridView1.TabIndex = 0;
             // 
             // btn_back
             // 
@@ -250,11 +239,22 @@
             this.cmbCompany.Size = new System.Drawing.Size(270, 23);
             this.cmbCompany.TabIndex = 31;
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(0, -2);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
+            this.dataGridView1.MultiSelect = false;
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 23;
+            this.dataGridView1.Size = new System.Drawing.Size(944, 309);
+            this.dataGridView1.TabIndex = 0;
+            // 
             // Frm_View
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(953, 852);
+            this.ClientSize = new System.Drawing.Size(949, 848);
             this.ControlBox = false;
             this.Controls.Add(this.cmbCompany);
             this.Controls.Add(this.label3);
@@ -286,8 +286,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btn_back;
         private System.Windows.Forms.Button btn_selectAll;
         private System.Windows.Forms.Button btn_update;
@@ -304,5 +302,6 @@
         public System.Windows.Forms.Label label5;
         public System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox cmbCompany;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
