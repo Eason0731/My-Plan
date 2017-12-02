@@ -198,7 +198,7 @@
             "工作类",
             "技术类",
             "其他类",
-            ""});
+            "全部"});
             this.cmbClassification.Location = new System.Drawing.Point(620, 341);
             this.cmbClassification.Name = "cmbClassification";
             this.cmbClassification.Size = new System.Drawing.Size(270, 23);
@@ -233,7 +233,8 @@
             this.cmbCompany.IntegralHeight = false;
             this.cmbCompany.Items.AddRange(new object[] {
             "AutoDesk",
-            "中国电信"});
+            "中国电信",
+            "全部"});
             this.cmbCompany.Location = new System.Drawing.Point(620, 416);
             this.cmbCompany.Name = "cmbCompany";
             this.cmbCompany.Size = new System.Drawing.Size(270, 23);

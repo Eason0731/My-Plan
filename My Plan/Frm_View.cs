@@ -28,7 +28,8 @@ namespace My_Plan
             dataGridView1.AllowUserToAddRows = false;
             //不显示datagridview的最后一行
             dataGridView1.DataSource = "";
-            //cmbClassification.SelectedIndex = 0;
+            cmbClassification.SelectedIndex = 3; //笔记分类下拉框默认选择全部
+            cmbCompany.SelectedIndex = 2; //公司选择下拉框默认选择全部
 
         }
 
@@ -78,13 +79,22 @@ namespace My_Plan
                 
             }
 
-            if (cmbClassification.Text != "") { 
-                myStr1 += " and [class] = '"+ cmbClassification.Text+"' ";
+            if (cmbClassification.Text != "全部") {
+                myStr1 += " and [class] = '" + cmbClassification.Text + "' ";
             }
 
-            if (cmbCompany.Text != "")
+            else if (cmbClassification.Text == "全部") {
+                myStr1 += "";
+            }
+
+            if (cmbCompany.Text != "全部")
             {
                 myStr1 += " and [company] = '"+ cmbCompany.Text + "'";
+            }
+
+            else if (cmbCompany.Text == "全部")
+            {
+                myStr1 += "";
             }
 
             myStr1 += " order by [id] desc";
