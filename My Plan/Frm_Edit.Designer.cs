@@ -198,7 +198,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(828, 822);
+            this.ClientSize = new System.Drawing.Size(824, 818);
             this.ControlBox = false;
             this.Controls.Add(this.cmbCompany);
             this.Controls.Add(this.label6);
@@ -217,7 +217,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Frm_Edit";
             this.ShowIcon = false;
-            this.Text = "更新我的笔记";
+            this.Text = "更新笔记";
             this.Load += new System.EventHandler(this.Frm_Edit_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

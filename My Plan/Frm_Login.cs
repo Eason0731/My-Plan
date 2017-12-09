@@ -62,6 +62,9 @@ namespace My_Plan
             this.Close();
         }
 
-
+        private void Frm_Login_Load(object sender, EventArgs e)
+        {
+          
+        }
     }
 }

@@ -211,7 +211,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(813, 808);
+            this.ClientSize = new System.Drawing.Size(809, 804);
             this.ControlBox = false;
             this.Controls.Add(this.cmbCompany);
             this.Controls.Add(this.label6);
@@ -231,7 +231,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Frm_AddNote";
             this.ShowIcon = false;
-            this.Text = "添加我的工作笔记";
+            this.Text = "添加笔记";
             this.Load += new System.EventHandler(this.Frm_AddNote_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

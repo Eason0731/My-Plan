@@ -169,7 +169,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(811, 805);
+            this.ClientSize = new System.Drawing.Size(807, 801);
             this.ControlBox = false;
             this.Controls.Add(this.txtCompany);
             this.Controls.Add(this.label5);
@@ -186,7 +186,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Frm_ViewNoteDetail";
             this.ShowIcon = false;
-            this.Text = "查看我的工作笔记";
+            this.Text = "查看笔记";
             this.Load += new System.EventHandler(this.Frm_ViewNoteDetail_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

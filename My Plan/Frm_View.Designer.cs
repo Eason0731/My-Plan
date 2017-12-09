@@ -255,7 +255,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(949, 848);
+            this.ClientSize = new System.Drawing.Size(945, 844);
             this.ControlBox = false;
             this.Controls.Add(this.cmbCompany);
             this.Controls.Add(this.label3);
@@ -278,7 +278,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Frm_View";
             this.ShowIcon = false;
-            this.Text = "查询我的笔记";
+            this.Text = "查询笔记";
             this.Load += new System.EventHandler(this.Frm_View_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
