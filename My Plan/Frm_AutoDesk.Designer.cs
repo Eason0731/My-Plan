@@ -1,6 +1,6 @@
 ﻿namespace My_Plan
 {
-    partial class Frm_Cherish
+    partial class Frm_AutoDesk
     {
         /// <summary>
         /// Required designer variable.
@@ -38,12 +38,18 @@
             this.lbl_total = new System.Windows.Forms.Label();
             this.lbl_day = new System.Windows.Forms.Label();
             this.lbl_comeon = new System.Windows.Forms.TextBox();
+            this.lbl_worktype = new System.Windows.Forms.Label();
+            this.lbl_type = new System.Windows.Forms.Label();
+            this.lbl_wpgsmc = new System.Windows.Forms.Label();
+            this.lbl_wpgs = new System.Windows.Forms.Label();
+            this.lbl_summarize = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn_back
             // 
             this.btn_back.Font = new System.Drawing.Font("宋体", 12F);
-            this.btn_back.Location = new System.Drawing.Point(286, 381);
+            this.btn_back.Location = new System.Drawing.Point(348, 665);
             this.btn_back.Margin = new System.Windows.Forms.Padding(4);
             this.btn_back.Name = "btn_back";
             this.btn_back.Size = new System.Drawing.Size(140, 50);
@@ -56,7 +62,7 @@
             // 
             this.lbl_enddate.AutoSize = true;
             this.lbl_enddate.Font = new System.Drawing.Font("宋体", 14F);
-            this.lbl_enddate.Location = new System.Drawing.Point(81, 181);
+            this.lbl_enddate.Location = new System.Drawing.Point(81, 177);
             this.lbl_enddate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_enddate.Name = "lbl_enddate";
             this.lbl_enddate.Size = new System.Drawing.Size(58, 24);
@@ -79,7 +85,7 @@
             this.lbl_count.AutoSize = true;
             this.lbl_count.Font = new System.Drawing.Font("宋体", 14F);
             this.lbl_count.ForeColor = System.Drawing.Color.Red;
-            this.lbl_count.Location = new System.Drawing.Point(344, 238);
+            this.lbl_count.Location = new System.Drawing.Point(344, 325);
             this.lbl_count.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_count.Name = "lbl_count";
             this.lbl_count.Size = new System.Drawing.Size(46, 24);
@@ -101,7 +107,7 @@
             // 
             this.lbl_start.AutoSize = true;
             this.lbl_start.Font = new System.Drawing.Font("宋体", 14F);
-            this.lbl_start.Location = new System.Drawing.Point(224, 126);
+            this.lbl_start.Location = new System.Drawing.Point(308, 126);
             this.lbl_start.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_start.Name = "lbl_start";
             this.lbl_start.Size = new System.Drawing.Size(82, 24);
@@ -112,7 +118,7 @@
             // 
             this.lbl_end.AutoSize = true;
             this.lbl_end.Font = new System.Drawing.Font("宋体", 14F);
-            this.lbl_end.Location = new System.Drawing.Point(224, 181);
+            this.lbl_end.Location = new System.Drawing.Point(308, 177);
             this.lbl_end.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_end.Name = "lbl_end";
             this.lbl_end.Size = new System.Drawing.Size(82, 24);
@@ -123,7 +129,7 @@
             // 
             this.lbl_total.AutoSize = true;
             this.lbl_total.Font = new System.Drawing.Font("宋体", 14F);
-            this.lbl_total.Location = new System.Drawing.Point(81, 238);
+            this.lbl_total.Location = new System.Drawing.Point(81, 325);
             this.lbl_total.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_total.Name = "lbl_total";
             this.lbl_total.Size = new System.Drawing.Size(118, 24);
@@ -134,7 +140,7 @@
             // 
             this.lbl_day.AutoSize = true;
             this.lbl_day.Font = new System.Drawing.Font("宋体", 14F);
-            this.lbl_day.Location = new System.Drawing.Point(395, 238);
+            this.lbl_day.Location = new System.Drawing.Point(395, 325);
             this.lbl_day.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_day.Name = "lbl_day";
             this.lbl_day.Size = new System.Drawing.Size(0, 24);
@@ -144,20 +150,94 @@
             // 
             this.lbl_comeon.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.lbl_comeon.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Bold);
-            this.lbl_comeon.Location = new System.Drawing.Point(83, 298);
+            this.lbl_comeon.Location = new System.Drawing.Point(85, 549);
             this.lbl_comeon.Margin = new System.Windows.Forms.Padding(4);
             this.lbl_comeon.Multiline = true;
             this.lbl_comeon.Name = "lbl_comeon";
             this.lbl_comeon.ReadOnly = true;
-            this.lbl_comeon.Size = new System.Drawing.Size(581, 66);
+            this.lbl_comeon.Size = new System.Drawing.Size(715, 66);
             this.lbl_comeon.TabIndex = 27;
             // 
-            // Frm_Cherish
+            // lbl_worktype
+            // 
+            this.lbl_worktype.AutoSize = true;
+            this.lbl_worktype.Font = new System.Drawing.Font("宋体", 14F);
+            this.lbl_worktype.Location = new System.Drawing.Point(308, 226);
+            this.lbl_worktype.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_worktype.Name = "lbl_worktype";
+            this.lbl_worktype.Size = new System.Drawing.Size(82, 24);
+            this.lbl_worktype.TabIndex = 29;
+            this.lbl_worktype.Text = "label7";
+            // 
+            // lbl_type
+            // 
+            this.lbl_type.AutoSize = true;
+            this.lbl_type.Font = new System.Drawing.Font("宋体", 14F);
+            this.lbl_type.Location = new System.Drawing.Point(81, 226);
+            this.lbl_type.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_type.Name = "lbl_type";
+            this.lbl_type.Size = new System.Drawing.Size(58, 24);
+            this.lbl_type.TabIndex = 28;
+            this.lbl_type.Text = "lbl3";
+            // 
+            // lbl_wpgsmc
+            // 
+            this.lbl_wpgsmc.AutoSize = true;
+            this.lbl_wpgsmc.Font = new System.Drawing.Font("宋体", 14F);
+            this.lbl_wpgsmc.Location = new System.Drawing.Point(308, 275);
+            this.lbl_wpgsmc.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_wpgsmc.Name = "lbl_wpgsmc";
+            this.lbl_wpgsmc.Size = new System.Drawing.Size(82, 24);
+            this.lbl_wpgsmc.TabIndex = 31;
+            this.lbl_wpgsmc.Text = "label8";
+            // 
+            // lbl_wpgs
+            // 
+            this.lbl_wpgs.AutoSize = true;
+            this.lbl_wpgs.Font = new System.Drawing.Font("宋体", 14F);
+            this.lbl_wpgs.Location = new System.Drawing.Point(81, 275);
+            this.lbl_wpgs.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_wpgs.Name = "lbl_wpgs";
+            this.lbl_wpgs.Size = new System.Drawing.Size(58, 24);
+            this.lbl_wpgs.TabIndex = 30;
+            this.lbl_wpgs.Text = "lbl4";
+            // 
+            // lbl_summarize
+            // 
+            this.lbl_summarize.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.lbl_summarize.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Bold);
+            this.lbl_summarize.Location = new System.Drawing.Point(85, 413);
+            this.lbl_summarize.Margin = new System.Windows.Forms.Padding(4);
+            this.lbl_summarize.Multiline = true;
+            this.lbl_summarize.Name = "lbl_summarize";
+            this.lbl_summarize.ReadOnly = true;
+            this.lbl_summarize.Size = new System.Drawing.Size(715, 128);
+            this.lbl_summarize.TabIndex = 32;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.ForeColor = System.Drawing.Color.Blue;
+            this.label1.Location = new System.Drawing.Point(81, 367);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(85, 24);
+            this.label1.TabIndex = 33;
+            this.label1.Text = "感悟：";
+            // 
+            // Frm_AutoDesk
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(735, 468);
+            this.ClientSize = new System.Drawing.Size(865, 728);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbl_summarize);
+            this.Controls.Add(this.lbl_wpgsmc);
+            this.Controls.Add(this.lbl_wpgs);
+            this.Controls.Add(this.lbl_worktype);
+            this.Controls.Add(this.lbl_type);
             this.Controls.Add(this.lbl_comeon);
             this.Controls.Add(this.lbl_day);
             this.Controls.Add(this.lbl_total);
@@ -169,7 +249,7 @@
             this.Controls.Add(this.lbl_startdate);
             this.Controls.Add(this.lbl_count);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Name = "Frm_Cherish";
+            this.Name = "Frm_AutoDesk";
             this.ShowIcon = false;
             this.Text = "在AutoDesk工作的日子";
             this.Load += new System.EventHandler(this.Frm_Cherish_Load);
@@ -190,5 +270,11 @@
         private System.Windows.Forms.Label lbl_total;
         private System.Windows.Forms.Label lbl_day;
         private System.Windows.Forms.TextBox lbl_comeon;
+        private System.Windows.Forms.Label lbl_worktype;
+        private System.Windows.Forms.Label lbl_type;
+        private System.Windows.Forms.Label lbl_wpgsmc;
+        private System.Windows.Forms.Label lbl_wpgs;
+        private System.Windows.Forms.TextBox lbl_summarize;
+        private System.Windows.Forms.Label label1;
     }
 }

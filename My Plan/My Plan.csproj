@@ -52,11 +52,11 @@
     <Compile Include="Frm_AddNote.Designer.cs">
       <DependentUpon>Frm_AddNote.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_Cherish.cs">
+    <Compile Include="Frm_AutoDesk.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_Cherish.Designer.cs">
-      <DependentUpon>Frm_Cherish.cs</DependentUpon>
+    <Compile Include="Frm_AutoDesk.Designer.cs">
+      <DependentUpon>Frm_AutoDesk.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_Edit.cs">
       <SubType>Form</SubType>
@@ -94,13 +94,19 @@
     <Compile Include="Frm_ViewNoteDetail.Designer.cs">
       <DependentUpon>Frm_ViewNoteDetail.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_Work.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Work.Designer.cs">
+      <DependentUpon>Frm_Work.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Frm_AddNote.resx">
       <DependentUpon>Frm_AddNote.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frm_Cherish.resx">
-      <DependentUpon>Frm_Cherish.cs</DependentUpon>
+    <EmbeddedResource Include="Frm_AutoDesk.resx">
+      <DependentUpon>Frm_AutoDesk.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Edit.resx">
       <DependentUpon>Frm_Edit.cs</DependentUpon>
@@ -119,6 +125,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_ViewNoteDetail.resx">
       <DependentUpon>Frm_ViewNoteDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Work.resx">
+      <DependentUpon>Frm_Work.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

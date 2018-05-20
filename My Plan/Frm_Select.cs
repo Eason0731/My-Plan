@@ -54,7 +54,7 @@ namespace My_Plan
         private void btn_viewDate_Click(object sender, EventArgs e)
         {
             this.Close();
-            Frm_Cherish frm4 = new Frm_Cherish();
+            Frm_Work frm4 = new Frm_Work();
             frm4.Show();
         }
 

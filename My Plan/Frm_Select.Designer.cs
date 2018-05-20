@@ -135,7 +135,7 @@
             this.btn_viewDate.Name = "btn_viewDate";
             this.btn_viewDate.Size = new System.Drawing.Size(556, 50);
             this.btn_viewDate.TabIndex = 9;
-            this.btn_viewDate.Text = "查看在AutoDesk的工作时间";
+            this.btn_viewDate.Text = "查看工作情况";
             this.btn_viewDate.UseVisualStyleBackColor = true;
             this.btn_viewDate.Click += new System.EventHandler(this.btn_viewDate_Click);
             // 
@@ -143,7 +143,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(911, 648);
+            this.ClientSize = new System.Drawing.Size(907, 644);
             this.ControlBox = false;
             this.Controls.Add(this.btn_viewDate);
             this.Controls.Add(this.lblDeltaDays);

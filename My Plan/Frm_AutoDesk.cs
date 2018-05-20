@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace My_Plan
 {
-    public partial class Frm_Cherish : Form
+    public partial class Frm_AutoDesk : Form
     {
-        public Frm_Cherish()
+        public Frm_AutoDesk()
         {
             InitializeComponent();
             
@@ -25,8 +25,13 @@ namespace My_Plan
             lbl_start.Text = "2015年8月24日";
             lbl_enddate.Text = "离职日期：";
             lbl_end.Text = "2017年2月17日";
+            lbl_type.Text = "工作性质:";
+            lbl_worktype.Text = "外派";
+            lbl_wpgs.Text = "所属外派公司:";
+            lbl_wpgsmc.Text = "遨为（上海）数字技术有限公司";
             lbl_total.Text = "一共在AutoDesk奋斗了";
             lbl_day.Text = "天";
+            lbl_summarize.Text = "毕业之后的第一份正式工作就是入职知名外企AutoDesk，工作氛围不错，同事都很谦虚且相处的比较融洽，都以探讨工作和技术为主，也学习到一定的知识，并取得了一定的提高，是个学习技术知识和做事方式的好公司！";
             lbl_comeon.Text = "骚年，不要气馁，尽管因为自己的过失造成了后果，相信未来的一切会更好！Everything will be OK!";
 
         }
@@ -34,7 +39,7 @@ namespace My_Plan
         private void btn_back_Click(object sender, EventArgs e)
         {
             this.Close();
-            Frm_Select frm1 = new Frm_Select();
+            Frm_Work frm1 = new Frm_Work();
             frm1.Show();
         }
 
