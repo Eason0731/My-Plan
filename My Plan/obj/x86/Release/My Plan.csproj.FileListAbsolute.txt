@@ -32,7 +32,6 @@ C:\My-Plan\My Plan\obj\x86\Release\My Plan.pdb
 C:\My-Plan\My Plan\bin\Release\My Plan.exe
 C:\My-Plan\My Plan\bin\Release\My Plan.pdb
 C:\My-Plan\My Plan\obj\x86\Release\My_Plan.Frm_AddNote.resources
-C:\My-Plan\My Plan\obj\x86\Release\My_Plan.Frm_Cherish.resources
 C:\My-Plan\My Plan\obj\x86\Release\My_Plan.Frm_Edit.resources
 C:\My-Plan\My Plan\obj\x86\Release\My_Plan.Frm_Login.resources
 C:\My-Plan\My Plan\obj\x86\Release\My_Plan.Frm_Main.resources
@@ -41,3 +40,6 @@ C:\My-Plan\My Plan\obj\x86\Release\My_Plan.Frm_View.resources
 C:\My-Plan\My Plan\obj\x86\Release\My_Plan.Frm_ViewNoteDetail.resources
 C:\My-Plan\My Plan\obj\x86\Release\My_Plan.Properties.Resources.resources
 C:\My-Plan\My Plan\obj\x86\Release\My Plan.csproj.GenerateResource.Cache
+C:\My-Plan\My Plan\obj\x86\Release\My Plan.csprojResolveAssemblyReference.cache
+C:\My-Plan\My Plan\obj\x86\Release\My_Plan.Frm_AutoDesk.resources
+C:\My-Plan\My Plan\obj\x86\Release\My_Plan.Frm_Work.resources
