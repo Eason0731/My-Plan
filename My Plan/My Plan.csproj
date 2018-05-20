@@ -82,6 +82,12 @@
     <Compile Include="Frm_Main.Designer.cs">
       <DependentUpon>Frm_Main.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_RiskRaider.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_RiskRaider.Designer.cs">
+      <DependentUpon>Frm_RiskRaider.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Select.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,6 +131,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Main.resx">
       <DependentUpon>Frm_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_RiskRaider.resx">
+      <DependentUpon>Frm_RiskRaider.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Select.resx">
       <DependentUpon>Frm_Select.cs</DependentUpon>

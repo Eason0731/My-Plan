@@ -66,3 +66,4 @@ C:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Work.resources
 C:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_AutoDesk.resources
 C:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_ChinaTelecom.resources
 C:\My-Plan\My Plan\obj\x86\Debug\My Plan.csprojResolveAssemblyReference.cache
+C:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_RiskRaider.resources

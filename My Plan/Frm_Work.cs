@@ -31,6 +31,13 @@ namespace My_Plan
             frm2.Show();
         }
 
+        private void btn_RiskRaider_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Frm_RiskRaider frm4 = new Frm_RiskRaider();
+            frm4.Show();
+        }
+
         private void btn_Back_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -38,5 +45,6 @@ namespace My_Plan
             frm3.Show();
         }
 
+        
     }
 }
