@@ -26,7 +26,9 @@ namespace My_Plan
        
         private void btn_Telecom_Click(object sender, EventArgs e)
         {
-
+            this.Close();
+            Frm_ChinaTelecom frm2 = new Frm_ChinaTelecom();
+            frm2.Show();
         }
 
         private void btn_Back_Click(object sender, EventArgs e)

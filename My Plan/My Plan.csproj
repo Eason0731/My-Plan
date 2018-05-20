@@ -58,6 +58,12 @@
     <Compile Include="Frm_AutoDesk.Designer.cs">
       <DependentUpon>Frm_AutoDesk.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_ChinaTelecom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_ChinaTelecom.Designer.cs">
+      <DependentUpon>Frm_ChinaTelecom.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Edit.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +113,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_AutoDesk.resx">
       <DependentUpon>Frm_AutoDesk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ChinaTelecom.resx">
+      <DependentUpon>Frm_ChinaTelecom.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Edit.resx">
       <DependentUpon>Frm_Edit.cs</DependentUpon>

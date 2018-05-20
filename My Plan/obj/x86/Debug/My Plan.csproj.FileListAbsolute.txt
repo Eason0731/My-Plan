@@ -62,6 +62,6 @@ C:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_View.resources
 C:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_ViewNoteDetail.resources
 C:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Properties.Resources.resources
 C:\My-Plan\My Plan\obj\x86\Debug\My Plan.csproj.GenerateResource.Cache
-C:\My-Plan\My Plan\obj\x86\Debug\My Plan.csprojResolveAssemblyReference.cache
 C:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Work.resources
 C:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_AutoDesk.resources
+C:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_ChinaTelecom.resources
