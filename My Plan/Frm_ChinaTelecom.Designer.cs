@@ -351,6 +351,7 @@
             this.Controls.Add(this.lbl_enddate);
             this.Controls.Add(this.lbl_startdate);
             this.Controls.Add(this.lbl_count);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Frm_ChinaTelecom";
             this.ShowIcon = false;
             this.Text = "在中国电信工作的日子";

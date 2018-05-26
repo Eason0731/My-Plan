@@ -91,6 +91,7 @@
             this.Controls.Add(this.btn_Back);
             this.Controls.Add(this.btn_Telecom);
             this.Controls.Add(this.btn_AutoDesk);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Frm_Work";
             this.ShowIcon = false;
             this.Text = "查看工作情况";
