@@ -97,7 +97,7 @@ namespace My_Plan
                 myStr1 += "";
             }
 
-            myStr1 += " order by [id] desc";
+            myStr1 += " order by [datetime] desc";
             // 将txtContent.Text读取到的包含单引号的值，替换为两个单引号字符。例如'r',会转成r。否则不转换无法写进数据库。因为不转换就是''r''包含单引号的字符无法写入数据库
             // 转换前：insert into [Note] ([title],[content],[datetime]) values ('111' , 'files = open (r‘D\Abc\1.txt’,'r')', '2016/9/10')
             // 转换后：insert into [Note] ([title],[content],[datetime]) values ('GFFG' , 'files = open (r‘D\Abc\1.txt’,''r'')', '2016/9/10')
@@ -245,7 +245,7 @@ namespace My_Plan
         {
             OleDbConnection myCon = new OleDbConnection(Conn); //连接到数据库
 
-            string myStr1 = "select [id],[title] as 笔记标题,[content] as 笔记内容,[datetime] as 记录时间, [class] as 笔记分类, [company] as 所在公司 from [Note] order by [id] desc";
+            string myStr1 = "select [id],[title] as 笔记标题,[content] as 笔记内容,[datetime] as 记录时间, [class] as 笔记分类, [company] as 所在公司 from [Note] order by [datetime] desc";
 
             OleDbDataAdapter myAda = new OleDbDataAdapter(myStr1, myCon); //在连接好的数据库中打开已连接的表
             DataSet mySet = new DataSet(); //声明一个记录集
