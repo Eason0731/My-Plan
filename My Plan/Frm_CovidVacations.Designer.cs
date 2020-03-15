@@ -138,7 +138,7 @@
             this.btn_back.Name = "btn_back";
             this.btn_back.Size = new System.Drawing.Size(105, 40);
             this.btn_back.TabIndex = 66;
-            this.btn_back.Text = "返回";
+            this.btn_back.Text = "关闭";
             this.btn_back.UseVisualStyleBackColor = true;
             this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
             // 

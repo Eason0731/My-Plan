@@ -75,8 +75,6 @@ namespace My_Plan
         private void btn_back_Click(object sender, EventArgs e)
         {
             this.Close();
-            Frm_ChinaTelecom frm1 = new Frm_ChinaTelecom();
-            frm1.Show();
         }
 
     }

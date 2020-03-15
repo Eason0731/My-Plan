@@ -70,9 +70,8 @@ namespace My_Plan
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Close();
             Frm_CovidVacations frm2 = new Frm_CovidVacations();
-            frm2.Show();
+            frm2.ShowDialog();
         }
     }
 }
