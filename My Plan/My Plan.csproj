@@ -64,6 +64,12 @@
     <Compile Include="Frm_ChinaTelecom.Designer.cs">
       <DependentUpon>Frm_ChinaTelecom.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_CovidVacations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_CovidVacations.Designer.cs">
+      <DependentUpon>Frm_CovidVacations.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Edit.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,6 +128,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_ChinaTelecom.resx">
       <DependentUpon>Frm_ChinaTelecom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_CovidVacations.resx">
+      <DependentUpon>Frm_CovidVacations.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Edit.resx">
       <DependentUpon>Frm_Edit.cs</DependentUpon>

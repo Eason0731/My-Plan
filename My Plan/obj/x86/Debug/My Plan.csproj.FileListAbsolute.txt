@@ -67,3 +67,23 @@ C:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_AutoDesk.resources
 C:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_ChinaTelecom.resources
 C:\My-Plan\My Plan\obj\x86\Debug\My Plan.csprojResolveAssemblyReference.cache
 C:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_RiskRaider.resources
+D:\My-Plan\My Plan\obj\x86\Debug\My Plan.exe
+D:\My-Plan\My Plan\obj\x86\Debug\My Plan.pdb
+D:\My-Plan\My Plan\bin\Debug\My Plan.exe
+D:\My-Plan\My Plan\bin\Debug\My Plan.pdb
+D:\My-Plan\My Plan\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_AddNote.resources
+D:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_AutoDesk.resources
+D:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_ChinaTelecom.resources
+D:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Edit.resources
+D:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Login.resources
+D:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Main.resources
+D:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_RiskRaider.resources
+D:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Select.resources
+D:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_View.resources
+D:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_ViewNoteDetail.resources
+D:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Work.resources
+D:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Properties.Resources.resources
+D:\My-Plan\My Plan\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\My-Plan\My Plan\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_CovidVacations.resources

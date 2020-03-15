@@ -33,7 +33,9 @@ namespace My_Plan
             lbl_wqdz.Text = "浦电路399号陆家嘴软件园7号楼1层";
             lbl_wpgs.Text = "所属外派公司：";
             lbl_wpgsmc.Text = "遨为（上海）数字技术有限公司";
-            lbl_wpgsdz.Text = "外派公司地址：";
+            lbl_wpgsldz.Text = "外派公司原地址：";
+            lbl_gsldz.Text = "逸仙路3000号6号楼105-2室";
+            lbl_wpgsdz.Text = "外派公司新地址：";
             lbl_gsdz.Text = "沪太路1895弄51号诺诚1895创意园1号楼2层";
             lbl_total.Text = "一共在AutoDesk奋斗了";
             lbl_day.Text = "天";

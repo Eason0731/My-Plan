@@ -32,8 +32,10 @@ namespace My_Plan
             lbl_gqdz.Text = "柳林路158号柳林电信分局大楼508室";
             lbl_wpgs.Text = "所属外派公司：";
             lbl_wpgsmc.Text = "上海埃帕信息科技有限公司";
-            lbl_wpgsdz.Text = "外派公司地址：";
+            lbl_wpgsdz.Text = "外派公司原地址：";
             lbl_wpdz.Text = "峨山路77号金牛大厦12楼";
+            lbl_wpgsxdz.Text = "外派公司新地址：";
+            lbl_wpxdz.Text = "东方路2981号4楼C座";
             lbl_total.Text = "目前在中国电信工作了";
             lbl_day.Text = "天";
             lbl_leaveday.Text = "天";
@@ -64,6 +66,13 @@ namespace My_Plan
             this.Close();
             Frm_Work frm1 = new Frm_Work();
             frm1.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Frm_CovidVacations frm2 = new Frm_CovidVacations();
+            frm2.Show();
         }
     }
 }
