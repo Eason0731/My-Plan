@@ -38,7 +38,7 @@ namespace My_Plan
 
             lbl_firstclosetime.Text = "第一次小区封闭时间:";
             lbl_secondclosetime.Text = "第二次小区封闭时间:";
-            lbl_workathometime.Text = "实际休息天数和在家远程办公天数:";
+            lbl_workathometime.Text = "实际休息和在家远程办公天数:";
 
             label1.Text = "天";
             label2.Text = "天";

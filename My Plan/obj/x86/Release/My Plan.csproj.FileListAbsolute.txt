@@ -39,12 +39,10 @@ C:\My-Plan\My Plan\obj\x86\Release\My_Plan.Frm_Select.resources
 C:\My-Plan\My Plan\obj\x86\Release\My_Plan.Frm_View.resources
 C:\My-Plan\My Plan\obj\x86\Release\My_Plan.Frm_ViewNoteDetail.resources
 C:\My-Plan\My Plan\obj\x86\Release\My_Plan.Properties.Resources.resources
-C:\My-Plan\My Plan\obj\x86\Release\My Plan.csproj.GenerateResource.Cache
 C:\My-Plan\My Plan\obj\x86\Release\My_Plan.Frm_AutoDesk.resources
 C:\My-Plan\My Plan\obj\x86\Release\My_Plan.Frm_Work.resources
 C:\My-Plan\My Plan\obj\x86\Release\My_Plan.Frm_ChinaTelecom.resources
 C:\My-Plan\My Plan\obj\x86\Release\My_Plan.Frm_RiskRaider.resources
-C:\My-Plan\My Plan\obj\x86\Release\My Plan.csprojResolveAssemblyReference.cache
 D:\My-Plan\My Plan\obj\x86\Release\My Plan.exe
 D:\My-Plan\My Plan\obj\x86\Release\My Plan.pdb
 D:\My-Plan\My Plan\bin\Release\My Plan.exe
@@ -65,3 +63,8 @@ D:\My-Plan\My Plan\obj\x86\Release\My_Plan.Frm_Work.resources
 D:\My-Plan\My Plan\obj\x86\Release\My_Plan.Properties.Resources.resources
 D:\My-Plan\My Plan\obj\x86\Release\GenerateResource.read.1.tlog
 D:\My-Plan\My Plan\obj\x86\Release\GenerateResource.write.1.tlog
+C:\My-Plan\My Plan\obj\x86\Release\ResolveAssemblyReference.cache
+C:\My-Plan\My Plan\obj\x86\Release\My_Plan.Frm_CovidVacations.resources
+C:\My-Plan\My Plan\obj\x86\Release\My_Plan.Frm_ShanghaiInCovid.resources
+C:\My-Plan\My Plan\obj\x86\Release\GenerateResource.read.1.tlog
+C:\My-Plan\My Plan\obj\x86\Release\GenerateResource.write.1.tlog

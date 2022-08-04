@@ -82,7 +82,7 @@
             // 
             this.lbl_workathomedate.AutoSize = true;
             this.lbl_workathomedate.Font = new System.Drawing.Font("宋体", 14F);
-            this.lbl_workathomedate.Location = new System.Drawing.Point(610, 178);
+            this.lbl_workathomedate.Location = new System.Drawing.Point(610, 174);
             this.lbl_workathomedate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_workathomedate.Name = "lbl_workathomedate";
             this.lbl_workathomedate.Size = new System.Drawing.Size(82, 24);
@@ -93,7 +93,7 @@
             // 
             this.lbl_workathome.AutoSize = true;
             this.lbl_workathome.Font = new System.Drawing.Font("宋体", 14F);
-            this.lbl_workathome.Location = new System.Drawing.Point(70, 178);
+            this.lbl_workathome.Location = new System.Drawing.Point(70, 174);
             this.lbl_workathome.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_workathome.Name = "lbl_workathome";
             this.lbl_workathome.Size = new System.Drawing.Size(58, 24);
@@ -105,7 +105,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("宋体", 14F);
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(688, 294);
+            this.label1.Location = new System.Drawing.Point(688, 291);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(0, 24);
@@ -115,7 +115,7 @@
             // 
             this.lbl_firstclosetime.AutoSize = true;
             this.lbl_firstclosetime.Font = new System.Drawing.Font("宋体", 14F);
-            this.lbl_firstclosetime.Location = new System.Drawing.Point(70, 294);
+            this.lbl_firstclosetime.Location = new System.Drawing.Point(70, 291);
             this.lbl_firstclosetime.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_firstclosetime.Name = "lbl_firstclosetime";
             this.lbl_firstclosetime.Size = new System.Drawing.Size(46, 24);
@@ -127,7 +127,7 @@
             this.lbl_firstclosecount.AutoSize = true;
             this.lbl_firstclosecount.Font = new System.Drawing.Font("宋体", 14F);
             this.lbl_firstclosecount.ForeColor = System.Drawing.Color.Red;
-            this.lbl_firstclosecount.Location = new System.Drawing.Point(610, 294);
+            this.lbl_firstclosecount.Location = new System.Drawing.Point(610, 291);
             this.lbl_firstclosecount.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_firstclosecount.Name = "lbl_firstclosecount";
             this.lbl_firstclosecount.Size = new System.Drawing.Size(46, 24);
@@ -138,7 +138,7 @@
             // 
             this.lbl_firstend.AutoSize = true;
             this.lbl_firstend.Font = new System.Drawing.Font("宋体", 14F);
-            this.lbl_firstend.Location = new System.Drawing.Point(610, 137);
+            this.lbl_firstend.Location = new System.Drawing.Point(610, 133);
             this.lbl_firstend.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_firstend.Name = "lbl_firstend";
             this.lbl_firstend.Size = new System.Drawing.Size(82, 24);
@@ -149,7 +149,7 @@
             // 
             this.lbl_firstenddate.AutoSize = true;
             this.lbl_firstenddate.Font = new System.Drawing.Font("宋体", 14F);
-            this.lbl_firstenddate.Location = new System.Drawing.Point(70, 137);
+            this.lbl_firstenddate.Location = new System.Drawing.Point(70, 133);
             this.lbl_firstenddate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_firstenddate.Name = "lbl_firstenddate";
             this.lbl_firstenddate.Size = new System.Drawing.Size(58, 24);
@@ -194,7 +194,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("宋体", 14F);
-            this.label2.Location = new System.Drawing.Point(688, 332);
+            this.label2.Location = new System.Drawing.Point(688, 331);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(0, 24);
@@ -204,7 +204,7 @@
             // 
             this.lbl_secondclosetime.AutoSize = true;
             this.lbl_secondclosetime.Font = new System.Drawing.Font("宋体", 14F);
-            this.lbl_secondclosetime.Location = new System.Drawing.Point(70, 332);
+            this.lbl_secondclosetime.Location = new System.Drawing.Point(70, 331);
             this.lbl_secondclosetime.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_secondclosetime.Name = "lbl_secondclosetime";
             this.lbl_secondclosetime.Size = new System.Drawing.Size(238, 24);
@@ -215,7 +215,7 @@
             // 
             this.lbl_secondend.AutoSize = true;
             this.lbl_secondend.Font = new System.Drawing.Font("宋体", 14F);
-            this.lbl_secondend.Location = new System.Drawing.Point(610, 219);
+            this.lbl_secondend.Location = new System.Drawing.Point(610, 214);
             this.lbl_secondend.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_secondend.Name = "lbl_secondend";
             this.lbl_secondend.Size = new System.Drawing.Size(82, 24);
@@ -260,7 +260,7 @@
             // 
             this.lbl_secondenddate.AutoSize = true;
             this.lbl_secondenddate.Font = new System.Drawing.Font("宋体", 14F);
-            this.lbl_secondenddate.Location = new System.Drawing.Point(70, 219);
+            this.lbl_secondenddate.Location = new System.Drawing.Point(70, 214);
             this.lbl_secondenddate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_secondenddate.Name = "lbl_secondenddate";
             this.lbl_secondenddate.Size = new System.Drawing.Size(58, 24);
@@ -283,7 +283,7 @@
             this.lbl_secondclosecount.AutoSize = true;
             this.lbl_secondclosecount.Font = new System.Drawing.Font("宋体", 14F);
             this.lbl_secondclosecount.ForeColor = System.Drawing.Color.Red;
-            this.lbl_secondclosecount.Location = new System.Drawing.Point(610, 332);
+            this.lbl_secondclosecount.Location = new System.Drawing.Point(610, 331);
             this.lbl_secondclosecount.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_secondclosecount.Name = "lbl_secondclosecount";
             this.lbl_secondclosecount.Size = new System.Drawing.Size(46, 24);
@@ -294,7 +294,7 @@
             // 
             this.lbl_workend.AutoSize = true;
             this.lbl_workend.Font = new System.Drawing.Font("宋体", 14F);
-            this.lbl_workend.Location = new System.Drawing.Point(611, 257);
+            this.lbl_workend.Location = new System.Drawing.Point(611, 253);
             this.lbl_workend.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_workend.Name = "lbl_workend";
             this.lbl_workend.Size = new System.Drawing.Size(82, 24);
@@ -305,7 +305,7 @@
             // 
             this.lbl_workenddate.AutoSize = true;
             this.lbl_workenddate.Font = new System.Drawing.Font("宋体", 14F);
-            this.lbl_workenddate.Location = new System.Drawing.Point(71, 257);
+            this.lbl_workenddate.Location = new System.Drawing.Point(71, 253);
             this.lbl_workenddate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_workenddate.Name = "lbl_workenddate";
             this.lbl_workenddate.Size = new System.Drawing.Size(58, 24);
