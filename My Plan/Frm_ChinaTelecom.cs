@@ -73,5 +73,11 @@ namespace My_Plan
             Frm_CovidVacations frm2 = new Frm_CovidVacations();
             frm2.ShowDialog();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Frm_ShanghaiInCovid frm3 = new Frm_ShanghaiInCovid();
+            frm3.ShowDialog();
+        }
     }
 }

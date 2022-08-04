@@ -100,6 +100,12 @@
     <Compile Include="Frm_Select.Designer.cs">
       <DependentUpon>Frm_Select.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_ShanghaiInCovid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_ShanghaiInCovid.Designer.cs">
+      <DependentUpon>Frm_ShanghaiInCovid.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_View.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -146,6 +152,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Select.resx">
       <DependentUpon>Frm_Select.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ShanghaiInCovid.resx">
+      <DependentUpon>Frm_ShanghaiInCovid.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_View.resx">
       <DependentUpon>Frm_View.cs</DependentUpon>
