@@ -27,7 +27,7 @@ namespace My_Plan
             lbl_firstenddate.Text = "第一次小区解封时间:";
             lbl_firstend.Text = "2022年3月11日";
 
-            lbl_workathome.Text = "第二次小区解封时间即在家远程办公开始日期:";
+            lbl_workathome.Text = "第二次小区封闭时间即在家远程办公开始日期:";
             lbl_workathomedate.Text = "2022年3月24日";
 
             lbl_secondenddate.Text = "第二次小区解封即全上海解封时间:";
