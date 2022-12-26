@@ -131,8 +131,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(621, 524);
-            this.ControlBox = false;
+            this.ClientSize = new System.Drawing.Size(617, 520);
             this.Controls.Add(this.btn_exit);
             this.Controls.Add(this.btn_help);
             this.Controls.Add(this.btn_reset);
@@ -144,7 +143,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "Frm_Login";
-            this.ShowIcon = false;
             this.Text = "登录";
             this.Load += new System.EventHandler(this.Frm_Login_Load);
             this.ResumeLayout(false);

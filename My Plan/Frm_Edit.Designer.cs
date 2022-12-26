@@ -48,9 +48,10 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label4.ForeColor = System.Drawing.Color.Red;
-            this.label4.Location = new System.Drawing.Point(179, 415);
+            this.label4.Location = new System.Drawing.Point(239, 519);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(296, 16);
+            this.label4.Size = new System.Drawing.Size(363, 20);
             this.label4.TabIndex = 17;
             this.label4.Text = "Be Careful：最多输入65536个字符！";
             // 
@@ -58,18 +59,20 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("宋体", 12F);
-            this.label3.Location = new System.Drawing.Point(31, 558);
+            this.label3.Location = new System.Drawing.Point(41, 698);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(88, 16);
+            this.label3.Size = new System.Drawing.Size(109, 20);
             this.label3.TabIndex = 16;
             this.label3.Text = "记录时间：";
             // 
             // btn_save
             // 
             this.btn_save.Font = new System.Drawing.Font("宋体", 12F);
-            this.btn_save.Location = new System.Drawing.Point(238, 602);
+            this.btn_save.Location = new System.Drawing.Point(317, 752);
+            this.btn_save.Margin = new System.Windows.Forms.Padding(4);
             this.btn_save.Name = "btn_save";
-            this.btn_save.Size = new System.Drawing.Size(75, 34);
+            this.btn_save.Size = new System.Drawing.Size(100, 42);
             this.btn_save.TabIndex = 15;
             this.btn_save.Text = "更新";
             this.btn_save.UseVisualStyleBackColor = true;
@@ -78,9 +81,10 @@
             // btn_back
             // 
             this.btn_back.Font = new System.Drawing.Font("宋体", 12F);
-            this.btn_back.Location = new System.Drawing.Point(353, 602);
+            this.btn_back.Location = new System.Drawing.Point(471, 752);
+            this.btn_back.Margin = new System.Windows.Forms.Padding(4);
             this.btn_back.Name = "btn_back";
-            this.btn_back.Size = new System.Drawing.Size(75, 34);
+            this.btn_back.Size = new System.Drawing.Size(100, 42);
             this.btn_back.TabIndex = 14;
             this.btn_back.Text = "返回";
             this.btn_back.UseVisualStyleBackColor = true;
@@ -89,30 +93,33 @@
             // dateTimePicker1
             // 
             this.dateTimePicker1.Font = new System.Drawing.Font("宋体", 12F);
-            this.dateTimePicker1.Location = new System.Drawing.Point(125, 553);
+            this.dateTimePicker1.Location = new System.Drawing.Point(167, 691);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 26);
+            this.dateTimePicker1.Size = new System.Drawing.Size(265, 30);
             this.dateTimePicker1.TabIndex = 13;
             // 
             // txtContent
             // 
             this.txtContent.Font = new System.Drawing.Font("宋体", 12F);
-            this.txtContent.Location = new System.Drawing.Point(125, 100);
+            this.txtContent.Location = new System.Drawing.Point(167, 125);
+            this.txtContent.Margin = new System.Windows.Forms.Padding(4);
             this.txtContent.MaxLength = 65536;
             this.txtContent.Multiline = true;
             this.txtContent.Name = "txtContent";
             this.txtContent.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.txtContent.Size = new System.Drawing.Size(485, 300);
+            this.txtContent.Size = new System.Drawing.Size(645, 374);
             this.txtContent.TabIndex = 12;
             this.txtContent.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStatus_KeyDown);
             // 
             // txtTitle
             // 
             this.txtTitle.Font = new System.Drawing.Font("宋体", 12F);
-            this.txtTitle.Location = new System.Drawing.Point(125, 39);
+            this.txtTitle.Location = new System.Drawing.Point(167, 49);
+            this.txtTitle.Margin = new System.Windows.Forms.Padding(4);
             this.txtTitle.Multiline = true;
             this.txtTitle.Name = "txtTitle";
-            this.txtTitle.Size = new System.Drawing.Size(272, 28);
+            this.txtTitle.Size = new System.Drawing.Size(361, 34);
             this.txtTitle.TabIndex = 11;
             this.txtTitle.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStatus_KeyDown);
             // 
@@ -120,9 +127,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("宋体", 12F);
-            this.label2.Location = new System.Drawing.Point(61, 100);
+            this.label2.Location = new System.Drawing.Point(81, 125);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(56, 16);
+            this.label2.Size = new System.Drawing.Size(69, 20);
             this.label2.TabIndex = 10;
             this.label2.Text = "内容：";
             // 
@@ -130,9 +138,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("宋体", 12F);
-            this.label1.Location = new System.Drawing.Point(61, 42);
+            this.label1.Location = new System.Drawing.Point(81, 52);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(56, 16);
+            this.label1.Size = new System.Drawing.Size(69, 20);
             this.label1.TabIndex = 9;
             this.label1.Text = "标题：";
             // 
@@ -145,19 +154,20 @@
             "工作类",
             "技术类",
             "其他类"});
-            this.cmbClassification.Location = new System.Drawing.Point(122, 478);
-            this.cmbClassification.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cmbClassification.Location = new System.Drawing.Point(163, 598);
+            this.cmbClassification.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmbClassification.Name = "cmbClassification";
-            this.cmbClassification.Size = new System.Drawing.Size(204, 20);
+            this.cmbClassification.Size = new System.Drawing.Size(271, 23);
             this.cmbClassification.TabIndex = 19;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("宋体", 12F);
-            this.label5.Location = new System.Drawing.Point(31, 478);
+            this.label5.Location = new System.Drawing.Point(41, 598);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(88, 16);
+            this.label5.Size = new System.Drawing.Size(109, 20);
             this.label5.TabIndex = 18;
             this.label5.Text = "笔记分类：";
             // 
@@ -169,28 +179,28 @@
             this.cmbCompany.Items.AddRange(new object[] {
             "AutoDesk",
             "中国电信"});
-            this.cmbCompany.Location = new System.Drawing.Point(122, 515);
-            this.cmbCompany.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cmbCompany.Location = new System.Drawing.Point(163, 644);
+            this.cmbCompany.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmbCompany.Name = "cmbCompany";
-            this.cmbCompany.Size = new System.Drawing.Size(204, 20);
+            this.cmbCompany.Size = new System.Drawing.Size(271, 23);
             this.cmbCompany.TabIndex = 21;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("宋体", 12F);
-            this.label6.Location = new System.Drawing.Point(31, 515);
+            this.label6.Location = new System.Drawing.Point(41, 644);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(88, 16);
+            this.label6.Size = new System.Drawing.Size(109, 20);
             this.label6.TabIndex = 20;
             this.label6.Text = "所在公司：";
             // 
             // Frm_Edit
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(636, 679);
-            this.ControlBox = false;
+            this.ClientSize = new System.Drawing.Size(843, 844);
             this.Controls.Add(this.cmbCompany);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.cmbClassification);
@@ -205,8 +215,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Frm_Edit";
-            this.ShowIcon = false;
             this.Text = "更新笔记";
             this.Load += new System.EventHandler(this.Frm_Edit_Load);
             this.ResumeLayout(false);

@@ -341,7 +341,6 @@
             this.Controls.Add(this.lbl_firststartdate);
             this.Controls.Add(this.lbl_secondclosecount);
             this.Name = "Frm_ShanghaiInCovid";
-            this.ShowIcon = false;
             this.Text = "2022新冠疫情致上海封城";
             this.Load += new System.EventHandler(this.Frm_ShanghaiInCovid_Load);
             this.ResumeLayout(false);

@@ -187,9 +187,9 @@ namespace My_Plan
                     //frm_viewdetail.label4.Text = row["id"].ToString();
                     frm_viewdetail.txtTitle.Text = row["笔记标题"].ToString();
                     frm_viewdetail.txtContent.Text = row["笔记内容"].ToString();
-                    frm_viewdetail.dateTimePicker1.Text = row["记录时间"].ToString();
-                    frm_viewdetail.txtClassification.Text = row["笔记分类"].ToString();
-                    frm_viewdetail.txtCompany.Text = row["所在公司"].ToString();
+                    frm_viewdetail.lblDate.Text = row["记录时间"].ToString();
+                    frm_viewdetail.lblClassification.Text = row["笔记分类"].ToString();
+                    frm_viewdetail.lblCompany.Text = row["所在公司"].ToString();
 
                     frm_viewdetail.ShowDialog();
 
@@ -268,8 +268,8 @@ namespace My_Plan
         {
             txtTitle.Text = "";
             txtContent.Text = "";
-            cmbClassification.Text = "";
-            cmbCompany.Text = "";
+            cmbClassification.SelectedIndex = 3;
+            cmbCompany.SelectedIndex = 2;
         }
 
         private void btn_cleanresult_Click(object sender, EventArgs e)
@@ -285,6 +285,11 @@ namespace My_Plan
             dataGridView1.DataSource = mySet; //设定显示控件的数据源
             dataGridView1.DataMember = "myData"; //将表格myData的内容绑定到显示控件
             myCon.Close();
+        }
+
+        private void cmbCompany_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
 
     }

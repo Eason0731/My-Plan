@@ -93,7 +93,6 @@
             this.Controls.Add(this.btn_AutoDesk);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Frm_Work";
-            this.ShowIcon = false;
             this.Text = "查看工作情况";
             this.ResumeLayout(false);
 

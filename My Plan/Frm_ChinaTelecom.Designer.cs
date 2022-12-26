@@ -75,7 +75,7 @@
             this.lbl_summarize.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.lbl_summarize.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Bold);
             this.lbl_summarize.Location = new System.Drawing.Point(80, 650);
-            this.lbl_summarize.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lbl_summarize.Margin = new System.Windows.Forms.Padding(4);
             this.lbl_summarize.Multiline = true;
             this.lbl_summarize.Name = "lbl_summarize";
             this.lbl_summarize.ReadOnly = true;
@@ -185,7 +185,7 @@
             // 
             this.btn_back.Font = new System.Drawing.Font("宋体", 12F);
             this.btn_back.Location = new System.Drawing.Point(351, 868);
-            this.btn_back.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_back.Margin = new System.Windows.Forms.Padding(4);
             this.btn_back.Name = "btn_back";
             this.btn_back.Size = new System.Drawing.Size(140, 50);
             this.btn_back.TabIndex = 37;
@@ -353,7 +353,7 @@
             // 
             this.button2.Font = new System.Drawing.Font("宋体", 12F);
             this.button2.Location = new System.Drawing.Point(564, 109);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(259, 75);
             this.button2.TabIndex = 62;
@@ -409,7 +409,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Frm_ChinaTelecom";
-            this.ShowIcon = false;
             this.Text = "在中国电信工作的日子";
             this.Load += new System.EventHandler(this.Frm_ChinaTelecom_Load);
             this.ResumeLayout(false);

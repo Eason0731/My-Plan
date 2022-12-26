@@ -143,8 +143,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(907, 644);
-            this.ControlBox = false;
+            this.ClientSize = new System.Drawing.Size(903, 640);
             this.Controls.Add(this.btn_viewDate);
             this.Controls.Add(this.lblDeltaDays);
             this.Controls.Add(this.label2);
@@ -157,7 +156,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Frm_Select";
-            this.ShowIcon = false;
             this.Text = "选择";
             this.Load += new System.EventHandler(this.Frm_Select_Load);
             this.ResumeLayout(false);

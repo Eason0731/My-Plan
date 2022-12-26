@@ -102,7 +102,7 @@
             // btn_back
             // 
             this.btn_back.Font = new System.Drawing.Font("宋体", 12F);
-            this.btn_back.Location = new System.Drawing.Point(557, 742);
+            this.btn_back.Location = new System.Drawing.Point(556, 768);
             this.btn_back.Margin = new System.Windows.Forms.Padding(4);
             this.btn_back.Name = "btn_back";
             this.btn_back.Size = new System.Drawing.Size(100, 42);
@@ -114,7 +114,7 @@
             // btn_save
             // 
             this.btn_save.Font = new System.Drawing.Font("宋体", 12F);
-            this.btn_save.Location = new System.Drawing.Point(190, 742);
+            this.btn_save.Location = new System.Drawing.Point(189, 768);
             this.btn_save.Margin = new System.Windows.Forms.Padding(4);
             this.btn_save.Name = "btn_save";
             this.btn_save.Size = new System.Drawing.Size(100, 42);
@@ -149,7 +149,7 @@
             // btn_reset
             // 
             this.btn_reset.Font = new System.Drawing.Font("宋体", 12F);
-            this.btn_reset.Location = new System.Drawing.Point(373, 742);
+            this.btn_reset.Location = new System.Drawing.Point(372, 768);
             this.btn_reset.Margin = new System.Windows.Forms.Padding(4);
             this.btn_reset.Name = "btn_reset";
             this.btn_reset.Size = new System.Drawing.Size(100, 42);
@@ -211,8 +211,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(809, 804);
-            this.ControlBox = false;
+            this.ClientSize = new System.Drawing.Size(860, 876);
             this.Controls.Add(this.cmbCompany);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.cmbClassification);
@@ -230,7 +229,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Frm_AddNote";
-            this.ShowIcon = false;
             this.Text = "添加笔记";
             this.Load += new System.EventHandler(this.Frm_AddNote_Load);
             this.ResumeLayout(false);

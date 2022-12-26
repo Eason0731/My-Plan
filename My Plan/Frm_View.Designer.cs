@@ -239,6 +239,7 @@
             this.cmbCompany.Name = "cmbCompany";
             this.cmbCompany.Size = new System.Drawing.Size(270, 23);
             this.cmbCompany.TabIndex = 31;
+            this.cmbCompany.SelectedIndexChanged += new System.EventHandler(this.cmbCompany_SelectedIndexChanged);
             // 
             // dataGridView1
             // 
@@ -255,8 +256,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(945, 844);
-            this.ControlBox = false;
+            this.ClientSize = new System.Drawing.Size(941, 840);
             this.Controls.Add(this.cmbCompany);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.cmbClassification);
@@ -277,7 +277,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Frm_View";
-            this.ShowIcon = false;
             this.Text = "查询笔记";
             this.Load += new System.EventHandler(this.Frm_View_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
