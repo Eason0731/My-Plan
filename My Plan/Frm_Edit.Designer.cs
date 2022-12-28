@@ -33,7 +33,6 @@
             this.btn_save = new System.Windows.Forms.Button();
             this.btn_back = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.txtContent = new System.Windows.Forms.TextBox();
             this.txtTitle = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -41,6 +40,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.cmbCompany = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.txtContent = new WinHtmlEditor.HtmlEditor();
             this.SuspendLayout();
             // 
             // label4
@@ -69,7 +69,7 @@
             // btn_save
             // 
             this.btn_save.Font = new System.Drawing.Font("宋体", 12F);
-            this.btn_save.Location = new System.Drawing.Point(317, 752);
+            this.btn_save.Location = new System.Drawing.Point(391, 761);
             this.btn_save.Margin = new System.Windows.Forms.Padding(4);
             this.btn_save.Name = "btn_save";
             this.btn_save.Size = new System.Drawing.Size(100, 42);
@@ -81,7 +81,7 @@
             // btn_back
             // 
             this.btn_back.Font = new System.Drawing.Font("宋体", 12F);
-            this.btn_back.Location = new System.Drawing.Point(471, 752);
+            this.btn_back.Location = new System.Drawing.Point(545, 761);
             this.btn_back.Margin = new System.Windows.Forms.Padding(4);
             this.btn_back.Name = "btn_back";
             this.btn_back.Size = new System.Drawing.Size(100, 42);
@@ -99,19 +99,6 @@
             this.dateTimePicker1.Size = new System.Drawing.Size(265, 30);
             this.dateTimePicker1.TabIndex = 13;
             // 
-            // txtContent
-            // 
-            this.txtContent.Font = new System.Drawing.Font("宋体", 12F);
-            this.txtContent.Location = new System.Drawing.Point(167, 125);
-            this.txtContent.Margin = new System.Windows.Forms.Padding(4);
-            this.txtContent.MaxLength = 65536;
-            this.txtContent.Multiline = true;
-            this.txtContent.Name = "txtContent";
-            this.txtContent.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.txtContent.Size = new System.Drawing.Size(645, 374);
-            this.txtContent.TabIndex = 12;
-            this.txtContent.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStatus_KeyDown);
-            // 
             // txtTitle
             // 
             this.txtTitle.Font = new System.Drawing.Font("宋体", 12F);
@@ -119,7 +106,7 @@
             this.txtTitle.Margin = new System.Windows.Forms.Padding(4);
             this.txtTitle.Multiline = true;
             this.txtTitle.Name = "txtTitle";
-            this.txtTitle.Size = new System.Drawing.Size(361, 34);
+            this.txtTitle.Size = new System.Drawing.Size(778, 34);
             this.txtTitle.TabIndex = 11;
             this.txtTitle.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStatus_KeyDown);
             // 
@@ -196,11 +183,29 @@
             this.label6.TabIndex = 20;
             this.label6.Text = "所在公司：";
             // 
+            // txtContent
+            // 
+            this.txtContent.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.txtContent.BodyInnerHTML = null;
+            this.txtContent.BodyInnerText = null;
+            this.txtContent.EnterToBR = false;
+            this.txtContent.FontSize = WinHtmlEditor.FontSize.Three;
+            this.txtContent.Location = new System.Drawing.Point(163, 125);
+            this.txtContent.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtContent.Name = "txtContent";
+            this.txtContent.ShowStatusBar = true;
+            this.txtContent.ShowToolBar = true;
+            this.txtContent.ShowWb = true;
+            this.txtContent.Size = new System.Drawing.Size(782, 379);
+            this.txtContent.TabIndex = 36;
+            this.txtContent.WebBrowserShortcutsEnabled = true;
+            // 
             // Frm_Edit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(843, 844);
+            this.ClientSize = new System.Drawing.Size(1002, 876);
+            this.Controls.Add(this.txtContent);
             this.Controls.Add(this.cmbCompany);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.cmbClassification);
@@ -210,7 +215,6 @@
             this.Controls.Add(this.btn_save);
             this.Controls.Add(this.btn_back);
             this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.txtContent);
             this.Controls.Add(this.txtTitle);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -231,7 +235,6 @@
         public System.Windows.Forms.Button btn_save;
         public System.Windows.Forms.Button btn_back;
         public System.Windows.Forms.DateTimePicker dateTimePicker1;
-        public System.Windows.Forms.TextBox txtContent;
         public System.Windows.Forms.TextBox txtTitle;
         public System.Windows.Forms.Label label2;
         public System.Windows.Forms.Label label1;
@@ -239,5 +242,6 @@
         public System.Windows.Forms.ComboBox cmbClassification;
         public System.Windows.Forms.ComboBox cmbCompany;
         public System.Windows.Forms.Label label6;
+        public WinHtmlEditor.HtmlEditor txtContent;
     }
 }

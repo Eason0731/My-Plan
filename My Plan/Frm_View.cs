@@ -62,7 +62,8 @@ namespace My_Plan
 
 
             }
-
+            
+            /*
             if ( txtContent.Text != "")
             {
                 string TempContent = "";
@@ -78,6 +79,7 @@ namespace My_Plan
                 }
                 
             }
+            */
 
             if (cmbClassification.Text != "全部") {
                 myStr1 += " and [class] = '" + cmbClassification.Text + "' ";
@@ -186,7 +188,7 @@ namespace My_Plan
                     //为查看准备数据
                     //frm_viewdetail.label4.Text = row["id"].ToString();
                     frm_viewdetail.txtTitle.Text = row["笔记标题"].ToString();
-                    frm_viewdetail.txtContent.Text = row["笔记内容"].ToString();
+                    frm_viewdetail.txtContent.BodyInnerHTML = row["笔记内容"].ToString(); //BodyInnerHTML方法可显示通过编辑器编辑的字体
                     frm_viewdetail.lblDate.Text = row["记录时间"].ToString();
                     frm_viewdetail.lblClassification.Text = row["笔记分类"].ToString();
                     frm_viewdetail.lblCompany.Text = row["所在公司"].ToString();
@@ -224,7 +226,7 @@ namespace My_Plan
                 //为查看准备数据
                 //frm_update.label5.Text = row["id"].ToString();
                 frm_update.txtTitle.Text = row["笔记标题"].ToString();
-                frm_update.txtContent.Text = row["笔记内容"].ToString();
+                frm_update.txtContent.BodyInnerHTML = row["笔记内容"].ToString();
                 frm_update.dateTimePicker1.Text = row["记录时间"].ToString();
                 frm_update.cmbClassification.Text = row["笔记分类"].ToString();
                 frm_update.cmbCompany.Text = row["所在公司"].ToString();

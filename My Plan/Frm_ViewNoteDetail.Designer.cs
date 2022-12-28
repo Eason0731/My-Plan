@@ -32,13 +32,13 @@
             this.btn_back = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtContent = new System.Windows.Forms.TextBox();
             this.txtTitle = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.lblClassification = new System.Windows.Forms.Label();
             this.lblCompany = new System.Windows.Forms.Label();
             this.lblDate = new System.Windows.Forms.Label();
+            this.txtContent = new WinHtmlEditor.HtmlEditor();
             this.SuspendLayout();
             // 
             // label3
@@ -55,7 +55,7 @@
             // btn_back
             // 
             this.btn_back.Font = new System.Drawing.Font("宋体", 12F);
-            this.btn_back.Location = new System.Drawing.Point(377, 756);
+            this.btn_back.Location = new System.Drawing.Point(479, 756);
             this.btn_back.Margin = new System.Windows.Forms.Padding(4);
             this.btn_back.Name = "btn_back";
             this.btn_back.Size = new System.Drawing.Size(100, 42);
@@ -86,19 +86,6 @@
             this.label1.TabIndex = 18;
             this.label1.Text = "标题：";
             // 
-            // txtContent
-            // 
-            this.txtContent.Font = new System.Drawing.Font("宋体", 12F);
-            this.txtContent.Location = new System.Drawing.Point(164, 121);
-            this.txtContent.Margin = new System.Windows.Forms.Padding(4);
-            this.txtContent.Multiline = true;
-            this.txtContent.Name = "txtContent";
-            this.txtContent.ReadOnly = true;
-            this.txtContent.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.txtContent.Size = new System.Drawing.Size(637, 420);
-            this.txtContent.TabIndex = 27;
-            this.txtContent.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStatus_KeyDown);
-            // 
             // txtTitle
             // 
             this.txtTitle.Font = new System.Drawing.Font("宋体", 12F);
@@ -107,7 +94,7 @@
             this.txtTitle.Multiline = true;
             this.txtTitle.Name = "txtTitle";
             this.txtTitle.ReadOnly = true;
-            this.txtTitle.Size = new System.Drawing.Size(343, 34);
+            this.txtTitle.Size = new System.Drawing.Size(782, 34);
             this.txtTitle.TabIndex = 26;
             this.txtTitle.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStatus_KeyDown);
             // 
@@ -160,17 +147,36 @@
             this.lblDate.Size = new System.Drawing.Size(0, 20);
             this.lblDate.TabIndex = 34;
             // 
+            // txtContent
+            // 
+            this.txtContent.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.txtContent.BodyInnerHTML = null;
+            this.txtContent.BodyInnerText = null;
+            this.txtContent.EnterToBR = false;
+            this.txtContent.FontName = null;
+            this.txtContent.FontSize = WinHtmlEditor.FontSize.NA;
+            this.txtContent.Location = new System.Drawing.Point(165, 125);
+            this.txtContent.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtContent.Name = "txtContent";
+            this.txtContent.ReadOnly = true;
+            this.txtContent.ShowStatusBar = true;
+            this.txtContent.ShowToolBar = true;
+            this.txtContent.ShowWb = true;
+            this.txtContent.Size = new System.Drawing.Size(782, 379);
+            this.txtContent.TabIndex = 35;
+            this.txtContent.WebBrowserShortcutsEnabled = true;
+            // 
             // Frm_ViewNoteDetail
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(813, 841);
+            this.ClientSize = new System.Drawing.Size(1002, 876);
+            this.Controls.Add(this.txtContent);
             this.Controls.Add(this.lblDate);
             this.Controls.Add(this.lblCompany);
             this.Controls.Add(this.lblClassification);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.txtContent);
             this.Controls.Add(this.txtTitle);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btn_back);
@@ -192,12 +198,12 @@
         public System.Windows.Forms.Button btn_back;
         public System.Windows.Forms.Label label2;
         public System.Windows.Forms.Label label1;
-        public System.Windows.Forms.TextBox txtContent;
         public System.Windows.Forms.TextBox txtTitle;
         public System.Windows.Forms.Label label4;
         public System.Windows.Forms.Label label5;
         public System.Windows.Forms.Label lblClassification;
         public System.Windows.Forms.Label lblCompany;
         public System.Windows.Forms.Label lblDate;
+        public WinHtmlEditor.HtmlEditor txtContent;
     }
 }
