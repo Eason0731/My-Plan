@@ -63,8 +63,8 @@ namespace My_Plan
 
             }
             
-            /*
-            if ( txtContent.Text != "")
+            
+            if (txtContent.Text != "")
             {
                 string TempContent = "";
                 if (txtContent.Text.Contains("'"))
@@ -79,7 +79,7 @@ namespace My_Plan
                 }
                 
             }
-            */
+            
 
             if (cmbClassification.Text != "全部") {
                 myStr1 += " and [class] = '" + cmbClassification.Text + "' ";

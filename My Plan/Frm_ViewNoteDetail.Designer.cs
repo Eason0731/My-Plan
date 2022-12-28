@@ -45,7 +45,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("宋体", 12F);
-            this.label3.Location = new System.Drawing.Point(37, 692);
+            this.label3.Location = new System.Drawing.Point(54, 748);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(109, 20);
@@ -55,7 +55,7 @@
             // btn_back
             // 
             this.btn_back.Font = new System.Drawing.Font("宋体", 12F);
-            this.btn_back.Location = new System.Drawing.Point(479, 756);
+            this.btn_back.Location = new System.Drawing.Point(757, 858);
             this.btn_back.Margin = new System.Windows.Forms.Padding(4);
             this.btn_back.Name = "btn_back";
             this.btn_back.Size = new System.Drawing.Size(100, 42);
@@ -102,7 +102,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("宋体", 12F);
-            this.label4.Location = new System.Drawing.Point(39, 586);
+            this.label4.Location = new System.Drawing.Point(54, 643);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(109, 20);
@@ -113,7 +113,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("宋体", 12F);
-            this.label5.Location = new System.Drawing.Point(39, 638);
+            this.label5.Location = new System.Drawing.Point(54, 695);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(109, 20);
@@ -124,7 +124,7 @@
             // 
             this.lblClassification.AutoSize = true;
             this.lblClassification.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lblClassification.Location = new System.Drawing.Point(162, 586);
+            this.lblClassification.Location = new System.Drawing.Point(177, 643);
             this.lblClassification.Name = "lblClassification";
             this.lblClassification.Size = new System.Drawing.Size(0, 20);
             this.lblClassification.TabIndex = 32;
@@ -133,7 +133,7 @@
             // 
             this.lblCompany.AutoSize = true;
             this.lblCompany.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lblCompany.Location = new System.Drawing.Point(162, 637);
+            this.lblCompany.Location = new System.Drawing.Point(177, 694);
             this.lblCompany.Name = "lblCompany";
             this.lblCompany.Size = new System.Drawing.Size(0, 20);
             this.lblCompany.TabIndex = 33;
@@ -142,7 +142,7 @@
             // 
             this.lblDate.AutoSize = true;
             this.lblDate.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lblDate.Location = new System.Drawing.Point(161, 691);
+            this.lblDate.Location = new System.Drawing.Point(176, 748);
             this.lblDate.Name = "lblDate";
             this.lblDate.Size = new System.Drawing.Size(0, 20);
             this.lblDate.TabIndex = 34;
@@ -162,7 +162,7 @@
             this.txtContent.ShowStatusBar = true;
             this.txtContent.ShowToolBar = true;
             this.txtContent.ShowWb = true;
-            this.txtContent.Size = new System.Drawing.Size(782, 379);
+            this.txtContent.Size = new System.Drawing.Size(1382, 481);
             this.txtContent.TabIndex = 35;
             this.txtContent.WebBrowserShortcutsEnabled = true;
             // 
@@ -170,7 +170,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1002, 876);
+            this.ClientSize = new System.Drawing.Size(1578, 949);
             this.Controls.Add(this.txtContent);
             this.Controls.Add(this.lblDate);
             this.Controls.Add(this.lblCompany);

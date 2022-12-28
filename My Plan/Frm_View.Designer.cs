@@ -36,7 +36,6 @@
             this.txtTitle = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtContent = new System.Windows.Forms.TextBox();
             this.btn_viewnote = new System.Windows.Forms.Button();
             this.btn_clean = new System.Windows.Forms.Button();
             this.btn_cleanresult = new System.Windows.Forms.Button();
@@ -45,6 +44,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.cmbCompany = new System.Windows.Forms.ComboBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.txtContent = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -140,18 +140,6 @@
             this.label1.Size = new System.Drawing.Size(69, 20);
             this.label1.TabIndex = 21;
             this.label1.Text = "标题：";
-            // 
-            // txtContent
-            // 
-            this.txtContent.Font = new System.Drawing.Font("宋体", 12F);
-            this.txtContent.Location = new System.Drawing.Point(113, 415);
-            this.txtContent.Margin = new System.Windows.Forms.Padding(4);
-            this.txtContent.Multiline = true;
-            this.txtContent.Name = "txtContent";
-            this.txtContent.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.txtContent.Size = new System.Drawing.Size(343, 196);
-            this.txtContent.TabIndex = 24;
-            this.txtContent.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStatus_KeyDown);
             // 
             // btn_viewnote
             // 
@@ -253,11 +241,20 @@
             this.dataGridView1.Size = new System.Drawing.Size(944, 309);
             this.dataGridView1.TabIndex = 0;
             // 
+            // txtContent
+            // 
+            this.txtContent.Location = new System.Drawing.Point(113, 419);
+            this.txtContent.Multiline = true;
+            this.txtContent.Name = "txtContent";
+            this.txtContent.Size = new System.Drawing.Size(349, 279);
+            this.txtContent.TabIndex = 32;
+            // 
             // Frm_View
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(941, 840);
+            this.Controls.Add(this.txtContent);
             this.Controls.Add(this.cmbCompany);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.cmbClassification);
@@ -265,7 +262,6 @@
             this.Controls.Add(this.btn_cleanresult);
             this.Controls.Add(this.btn_clean);
             this.Controls.Add(this.btn_viewnote);
-            this.Controls.Add(this.txtContent);
             this.Controls.Add(this.txtTitle);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -295,7 +291,6 @@
         public System.Windows.Forms.TextBox txtTitle;
         public System.Windows.Forms.Label label2;
         public System.Windows.Forms.Label label1;
-        public System.Windows.Forms.TextBox txtContent;
         private System.Windows.Forms.Button btn_viewnote;
         private System.Windows.Forms.Button btn_clean;
         private System.Windows.Forms.Button btn_cleanresult;
@@ -304,5 +299,6 @@
         public System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox cmbCompany;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.TextBox txtContent;
     }
 }

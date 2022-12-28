@@ -80,7 +80,7 @@
             // dateTimePicker1
             // 
             this.dateTimePicker1.Font = new System.Drawing.Font("宋体", 12F);
-            this.dateTimePicker1.Location = new System.Drawing.Point(161, 674);
+            this.dateTimePicker1.Location = new System.Drawing.Point(164, 776);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(265, 30);
@@ -89,7 +89,7 @@
             // btn_back
             // 
             this.btn_back.Font = new System.Drawing.Font("宋体", 12F);
-            this.btn_back.Location = new System.Drawing.Point(666, 767);
+            this.btn_back.Location = new System.Drawing.Point(862, 858);
             this.btn_back.Margin = new System.Windows.Forms.Padding(4);
             this.btn_back.Name = "btn_back";
             this.btn_back.Size = new System.Drawing.Size(100, 42);
@@ -101,7 +101,7 @@
             // btn_save
             // 
             this.btn_save.Font = new System.Drawing.Font("宋体", 12F);
-            this.btn_save.Location = new System.Drawing.Point(299, 767);
+            this.btn_save.Location = new System.Drawing.Point(495, 858);
             this.btn_save.Margin = new System.Windows.Forms.Padding(4);
             this.btn_save.Name = "btn_save";
             this.btn_save.Size = new System.Drawing.Size(100, 42);
@@ -114,7 +114,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("宋体", 12F);
-            this.label3.Location = new System.Drawing.Point(36, 678);
+            this.label3.Location = new System.Drawing.Point(42, 783);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(109, 20);
@@ -126,7 +126,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label4.ForeColor = System.Drawing.Color.Red;
-            this.label4.Location = new System.Drawing.Point(236, 514);
+            this.label4.Location = new System.Drawing.Point(583, 631);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(363, 20);
@@ -136,7 +136,7 @@
             // btn_reset
             // 
             this.btn_reset.Font = new System.Drawing.Font("宋体", 12F);
-            this.btn_reset.Location = new System.Drawing.Point(482, 767);
+            this.btn_reset.Location = new System.Drawing.Point(678, 858);
             this.btn_reset.Margin = new System.Windows.Forms.Padding(4);
             this.btn_reset.Name = "btn_reset";
             this.btn_reset.Size = new System.Drawing.Size(100, 42);
@@ -149,7 +149,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("宋体", 12F);
-            this.label5.Location = new System.Drawing.Point(39, 581);
+            this.label5.Location = new System.Drawing.Point(42, 683);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(109, 20);
@@ -165,7 +165,7 @@
             "工作类",
             "技术类",
             "其他类"});
-            this.cmbClassification.Location = new System.Drawing.Point(161, 581);
+            this.cmbClassification.Location = new System.Drawing.Point(164, 683);
             this.cmbClassification.Name = "cmbClassification";
             this.cmbClassification.Size = new System.Drawing.Size(270, 23);
             this.cmbClassification.TabIndex = 13;
@@ -178,7 +178,7 @@
             this.cmbCompany.Items.AddRange(new object[] {
             "AutoDesk",
             "中国电信"});
-            this.cmbCompany.Location = new System.Drawing.Point(161, 628);
+            this.cmbCompany.Location = new System.Drawing.Point(164, 730);
             this.cmbCompany.Name = "cmbCompany";
             this.cmbCompany.Size = new System.Drawing.Size(270, 23);
             this.cmbCompany.TabIndex = 33;
@@ -187,7 +187,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("宋体", 12F);
-            this.label6.Location = new System.Drawing.Point(39, 627);
+            this.label6.Location = new System.Drawing.Point(42, 733);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(109, 20);
@@ -207,7 +207,7 @@
             this.txtContent.ShowStatusBar = true;
             this.txtContent.ShowToolBar = true;
             this.txtContent.ShowWb = true;
-            this.txtContent.Size = new System.Drawing.Size(782, 379);
+            this.txtContent.Size = new System.Drawing.Size(1382, 481);
             this.txtContent.TabIndex = 34;
             this.txtContent.WebBrowserShortcutsEnabled = true;
             // 
@@ -215,7 +215,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1002, 876);
+            this.ClientSize = new System.Drawing.Size(1578, 949);
             this.Controls.Add(this.txtContent);
             this.Controls.Add(this.cmbCompany);
             this.Controls.Add(this.label6);
