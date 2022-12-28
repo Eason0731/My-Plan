@@ -52,21 +52,19 @@ namespace My_Plan
                     Title = txtTitle.Text; //若字符中不包含单引号，则还是按照文本框输入的字符进入更新
                 }
 
-                /*
-                if (txtContent.Text.Contains("'"))
+                
+                if (txtContent.BodyInnerHTML.Contains("'"))
                 {
-                    Content = txtContent.Text.Replace("'", "''"); //将单引号被替换为两个单引号的结果，存到临时变量中，该临时变量作为更新内容。每次遇到有单引号的字符，则需要通过该方法去替换
+                    Content = txtContent.BodyInnerHTML.Replace("'", "''"); //将单引号被替换为两个单引号的结果，存到临时变量中，该临时变量作为更新内容。每次遇到有单引号的字符，则需要通过该方法去替换
                 }
 
                 else
                 {
-                    Content = txtContent.Text; //若字符中不包含单引号，则还是按照文本框输入的字符进入更新
+                    Content = txtContent.BodyInnerHTML; //若字符中不包含单引号，则还是按照文本框输入的字符进入更新
                 }
 
-                */
 
-
-                // 将txtContent.Text读取到的包含单引号的值，替换为两个单引号字符。例如'r',会转成r。否则不转换无法写进数据库。因为不转换就是''r''包含单引号的字符无法写入数据库
+                // 将txtContent.BodyInnerHTML读取到的包含单引号的值，替换为两个单引号字符。例如'r',会转成r。否则不转换无法写进数据库。因为不转换就是''r''包含单引号的字符无法写入数据库
                 // 转换前：insert into [Note] ([title],[content],[datetime]) values ('111' , 'files = open (r‘D\Abc\1.txt’,'r')', '2016/9/10')
                 // 转换后：insert into [Note] ([title],[content],[datetime]) values ('GFFG' , 'files = open (r‘D\Abc\1.txt’,''r'')', '2016/9/10')
                 // 显示的结果还是会显示为一个单引号的值
