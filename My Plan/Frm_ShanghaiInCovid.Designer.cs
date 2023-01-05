@@ -61,7 +61,7 @@
             this.lbl_note.Location = new System.Drawing.Point(70, 416);
             this.lbl_note.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_note.Name = "lbl_note";
-            this.lbl_note.Size = new System.Drawing.Size(85, 24);
+            this.lbl_note.Size = new System.Drawing.Size(82, 23);
             this.lbl_note.TabIndex = 110;
             this.lbl_note.Text = "说明：";
             // 
@@ -316,6 +316,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(861, 925);
             this.Controls.Add(this.lbl_workend);
             this.Controls.Add(this.lbl_workenddate);

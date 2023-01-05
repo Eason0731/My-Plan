@@ -66,7 +66,7 @@
             this.label1.Location = new System.Drawing.Point(76, 602);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 24);
+            this.label1.Size = new System.Drawing.Size(82, 23);
             this.label1.TabIndex = 49;
             this.label1.Text = "感悟：";
             // 
@@ -377,6 +377,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(869, 932);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button2);

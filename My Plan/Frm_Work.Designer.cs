@@ -86,6 +86,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(911, 648);
             this.Controls.Add(this.btn_RiskRaider);
             this.Controls.Add(this.btn_Back);

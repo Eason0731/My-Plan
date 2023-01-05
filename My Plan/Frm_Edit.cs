@@ -32,7 +32,7 @@ namespace My_Plan
             string Title = "";
             string Content = txtContent.BodyInnerHTML; //string Content = txtContent.BodyHtml; BodyInnerHTML格式可通过编辑器写入数据库
 
-            if (txtTitle.Text == "" || txtContent.BodyInnerHTML is null || cmbClassification.Text == "" || cmbCompany.Text =="")
+            if (txtTitle.Text == "" || txtContent.BodyInnerHTML == "<P>&nbsp;</P>" || txtContent.BodyInnerHTML is null || cmbClassification.Text == "" || cmbCompany.Text =="")
             {
                 MessageBox.Show("标题,内容或分类中有空值,空的笔记没有任何意义,是不会更新的！");
             }

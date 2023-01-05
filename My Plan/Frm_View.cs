@@ -126,7 +126,7 @@ namespace My_Plan
         {
 
             OleDbConnection myCon = new OleDbConnection(Conn); //连接到数据库
-            if (dataGridView1.CurrentRow == null)
+            if (dataGridView1.CurrentRow == null || dataGridView1.SelectedRows.Count == 0)
             {
                 MessageBox.Show("你没有选中数据啊,无数据可删除！");
             }

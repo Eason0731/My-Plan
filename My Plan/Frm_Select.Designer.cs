@@ -143,6 +143,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(903, 640);
             this.Controls.Add(this.btn_viewDate);
             this.Controls.Add(this.lblDeltaDays);

@@ -143,7 +143,7 @@
             // 
             this.btn_back.Font = new System.Drawing.Font("宋体", 12F);
             this.btn_back.Location = new System.Drawing.Point(327, 824);
-            this.btn_back.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_back.Margin = new System.Windows.Forms.Padding(4);
             this.btn_back.Name = "btn_back";
             this.btn_back.Size = new System.Drawing.Size(140, 50);
             this.btn_back.TabIndex = 66;
@@ -271,7 +271,7 @@
             this.lbl_note.Location = new System.Drawing.Point(71, 401);
             this.lbl_note.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_note.Name = "lbl_note";
-            this.lbl_note.Size = new System.Drawing.Size(85, 24);
+            this.lbl_note.Size = new System.Drawing.Size(82, 23);
             this.lbl_note.TabIndex = 89;
             this.lbl_note.Text = "说明：";
             // 
@@ -280,7 +280,7 @@
             this.lbl_summarize.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.lbl_summarize.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Bold);
             this.lbl_summarize.Location = new System.Drawing.Point(76, 441);
-            this.lbl_summarize.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lbl_summarize.Margin = new System.Windows.Forms.Padding(4);
             this.lbl_summarize.Multiline = true;
             this.lbl_summarize.Name = "lbl_summarize";
             this.lbl_summarize.ReadOnly = true;
@@ -292,6 +292,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(861, 925);
             this.Controls.Add(this.lbl_note);
             this.Controls.Add(this.lbl_summarize);
@@ -314,7 +315,7 @@
             this.Controls.Add(this.lbl_enddate);
             this.Controls.Add(this.lbl_startdate);
             this.Controls.Add(this.lbl_count);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Frm_CovidVacations";
             this.Text = "2020年初受新冠疫情影响";
             this.Load += new System.EventHandler(this.Frm_CovidVacations_Load);

@@ -170,6 +170,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1578, 949);
             this.Controls.Add(this.txtContent);
             this.Controls.Add(this.lblDate);

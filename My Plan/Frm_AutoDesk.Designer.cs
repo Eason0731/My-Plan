@@ -58,7 +58,7 @@
             // 
             this.btn_back.Font = new System.Drawing.Font("宋体", 12F);
             this.btn_back.Location = new System.Drawing.Point(349, 896);
-            this.btn_back.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_back.Margin = new System.Windows.Forms.Padding(4);
             this.btn_back.Name = "btn_back";
             this.btn_back.Size = new System.Drawing.Size(140, 50);
             this.btn_back.TabIndex = 9;
@@ -149,7 +149,7 @@
             this.lbl_comeon.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.lbl_comeon.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Bold);
             this.lbl_comeon.Location = new System.Drawing.Point(87, 804);
-            this.lbl_comeon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lbl_comeon.Margin = new System.Windows.Forms.Padding(4);
             this.lbl_comeon.Multiline = true;
             this.lbl_comeon.Name = "lbl_comeon";
             this.lbl_comeon.ReadOnly = true;
@@ -206,7 +206,7 @@
             this.lbl_summarize.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.lbl_summarize.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Bold);
             this.lbl_summarize.Location = new System.Drawing.Point(87, 638);
-            this.lbl_summarize.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lbl_summarize.Margin = new System.Windows.Forms.Padding(4);
             this.lbl_summarize.Multiline = true;
             this.lbl_summarize.Name = "lbl_summarize";
             this.lbl_summarize.ReadOnly = true;
@@ -222,7 +222,7 @@
             this.label1.Location = new System.Drawing.Point(83, 595);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 24);
+            this.label1.Size = new System.Drawing.Size(82, 23);
             this.label1.TabIndex = 33;
             this.label1.Text = "感悟：";
             // 
@@ -329,6 +329,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(865, 1015);
             this.Controls.Add(this.lbl_gsldz);
