@@ -114,3 +114,26 @@ C:\Users\Administrator\Documents\Visual Studio 2022\My-Plan\My Plan\bin\Debug\My
 C:\Users\Administrator\Documents\Visual Studio 2022\My-Plan\My Plan\bin\Debug\My Plan.exe
 C:\Users\Administrator\Documents\Visual Studio 2022\My-Plan\My Plan\bin\Debug\My Plan.pdb
 C:\Users\Administrator\Documents\Visual Studio 2022\My-Plan\My Plan\obj\x86\Debug\My Plan.csproj.CopyComplete
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\bin\Debug\My Plan.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\bin\Debug\My Plan.exe
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\bin\Debug\My Plan.pdb
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My Plan.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_AddNote.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_AutoDesk.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_ChinaTelecom.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_CovidVacations.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Edit.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Login.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Main.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_RiskRaider.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Select.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_ShanghaiInCovid.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_View.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_ViewNoteDetail.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Work.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My_Plan.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My Plan.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My Plan.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My Plan.csproj.CopyComplete
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My Plan.exe
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My Plan.pdb
