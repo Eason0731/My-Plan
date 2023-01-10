@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FCD967CC-0AAF-4833-ADEE-1185FAA8040D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>My_Plan</RootNamespace>
+    <AssemblyName>My Plan</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NetSpell.SpellChecker, Version=2.1.7.39341, Culture=neutral, PublicKeyToken=318b389f0db66e46" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.117.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WinHtmlEditor, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\WinHtmlEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Frm_AddNote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_AddNote.Designer.cs">
+      <DependentUpon>Frm_AddNote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_AutoDesk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_AutoDesk.Designer.cs">
+      <DependentUpon>Frm_AutoDesk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_ChinaTelecom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_ChinaTelecom.Designer.cs">
+      <DependentUpon>Frm_ChinaTelecom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_CovidVacations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_CovidVacations.Designer.cs">
+      <DependentUpon>Frm_CovidVacations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Edit.Designer.cs">
+      <DependentUpon>Frm_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Login.Designer.cs">
+      <DependentUpon>Frm_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Main.Designer.cs">
+      <DependentUpon>Frm_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_RiskRaider.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_RiskRaider.Designer.cs">
+      <DependentUpon>Frm_RiskRaider.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Select.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Select.Designer.cs">
+      <DependentUpon>Frm_Select.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_ShanghaiInCovid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_ShanghaiInCovid.Designer.cs">
+      <DependentUpon>Frm_ShanghaiInCovid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_View.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_View.Designer.cs">
+      <DependentUpon>Frm_View.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_ViewNoteDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_ViewNoteDetail.Designer.cs">
+      <DependentUpon>Frm_ViewNoteDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Work.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Work.Designer.cs">
+      <DependentUpon>Frm_Work.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Frm_AddNote.resx">
+      <DependentUpon>Frm_AddNote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_AutoDesk.resx">
+      <DependentUpon>Frm_AutoDesk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ChinaTelecom.resx">
+      <DependentUpon>Frm_ChinaTelecom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_CovidVacations.resx">
+      <DependentUpon>Frm_CovidVacations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Edit.resx">
+      <DependentUpon>Frm_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Login.resx">
+      <DependentUpon>Frm_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Main.resx">
+      <DependentUpon>Frm_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_RiskRaider.resx">
+      <DependentUpon>Frm_RiskRaider.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Select.resx">
+      <DependentUpon>Frm_Select.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ShanghaiInCovid.resx">
+      <DependentUpon>Frm_ShanghaiInCovid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_View.resx">
+      <DependentUpon>Frm_View.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ViewNoteDetail.resx">
+      <DependentUpon>Frm_ViewNoteDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Work.resx">
+      <DependentUpon>Frm_Work.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

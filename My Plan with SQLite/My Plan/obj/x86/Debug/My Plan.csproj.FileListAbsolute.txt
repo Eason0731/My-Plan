@@ -1,0 +1,162 @@
+C:\Users\Administrator\documents\visual studio 2010\Projects\My Plan\My Plan\bin\Debug\My Plan.exe
+C:\Users\Administrator\documents\visual studio 2010\Projects\My Plan\My Plan\bin\Debug\My Plan.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\My Plan\My Plan\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\documents\visual studio 2010\Projects\My Plan\My Plan\obj\x86\Debug\My_Plan.Frm_AddNote.resources
+C:\Users\Administrator\documents\visual studio 2010\Projects\My Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Edit.resources
+C:\Users\Administrator\documents\visual studio 2010\Projects\My Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Login.resources
+C:\Users\Administrator\documents\visual studio 2010\Projects\My Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Select.resources
+C:\Users\Administrator\documents\visual studio 2010\Projects\My Plan\My Plan\obj\x86\Debug\My_Plan.Frm_View.resources
+C:\Users\Administrator\documents\visual studio 2010\Projects\My Plan\My Plan\obj\x86\Debug\My_Plan.Frm_ViewNoteDetail.resources
+C:\Users\Administrator\documents\visual studio 2010\Projects\My Plan\My Plan\obj\x86\Debug\My_Plan.Properties.Resources.resources
+C:\Users\Administrator\documents\visual studio 2010\Projects\My Plan\My Plan\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\documents\visual studio 2010\Projects\My Plan\My Plan\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\documents\visual studio 2010\Projects\My Plan\My Plan\obj\x86\Debug\My Plan.exe
+C:\Users\Administrator\documents\visual studio 2010\Projects\My Plan\My Plan\obj\x86\Debug\My Plan.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\My Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Main.resources
+D:\共享文件夹\My Plan\My Plan\obj\x86\Debug\My Plan.exe
+D:\共享文件夹\My Plan\My Plan\obj\x86\Debug\My Plan.pdb
+D:\共享文件夹\My Plan\My Plan\bin\Debug\My Plan.exe
+D:\共享文件夹\My Plan\My Plan\bin\Debug\My Plan.pdb
+D:\共享文件夹\My Plan\My Plan\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\共享文件夹\My Plan\My Plan\obj\x86\Debug\My_Plan.Frm_AddNote.resources
+D:\共享文件夹\My Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Edit.resources
+D:\共享文件夹\My Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Login.resources
+D:\共享文件夹\My Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Main.resources
+D:\共享文件夹\My Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Select.resources
+D:\共享文件夹\My Plan\My Plan\obj\x86\Debug\My_Plan.Frm_View.resources
+D:\共享文件夹\My Plan\My Plan\obj\x86\Debug\My_Plan.Frm_ViewNoteDetail.resources
+D:\共享文件夹\My Plan\My Plan\obj\x86\Debug\My_Plan.Properties.Resources.resources
+D:\共享文件夹\My Plan\My Plan\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\共享文件夹\My Plan\My Plan\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\My Plan\My Plan\obj\x86\Debug\My Plan.exe
+C:\My Plan\My Plan\obj\x86\Debug\My Plan.pdb
+C:\My Plan\My Plan\bin\Debug\My Plan.exe
+C:\My Plan\My Plan\bin\Debug\My Plan.pdb
+C:\My Plan\My Plan\obj\x86\Debug\My_Plan.Frm_AddNote.resources
+C:\My Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Edit.resources
+C:\My Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Login.resources
+C:\My Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Main.resources
+C:\My Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Select.resources
+C:\My Plan\My Plan\obj\x86\Debug\My_Plan.Frm_View.resources
+C:\My Plan\My Plan\obj\x86\Debug\My_Plan.Frm_ViewNoteDetail.resources
+C:\My Plan\My Plan\obj\x86\Debug\My_Plan.Properties.Resources.resources
+C:\My Git Projects\My-Plan\My Plan\obj\x86\Debug\My Plan.exe
+C:\My Git Projects\My-Plan\My Plan\obj\x86\Debug\My Plan.pdb
+C:\Github Project\My Plan\obj\x86\Debug\My Plan.exe
+C:\Github Project\My Plan\obj\x86\Debug\My Plan.pdb
+C:\My Plan\My Plan\obj\x86\Debug\My Plan.csproj.GenerateResource.Cache
+D:\Github\My Plan\My Plan\obj\x86\Debug\My Plan.exe
+D:\Github\My Plan\My Plan\obj\x86\Debug\My Plan.pdb
+C:\My Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Cherish.resources
+C:\My Plan\My Plan\obj\x86\Debug\My Plan.csprojResolveAssemblyReference.cache
+C:\My-Plan\My Plan\obj\x86\Debug\My Plan.exe
+C:\My-Plan\My Plan\obj\x86\Debug\My Plan.pdb
+C:\My-Plan\My Plan\bin\Debug\My Plan.exe
+C:\My-Plan\My Plan\bin\Debug\My Plan.pdb
+C:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_AddNote.resources
+C:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Edit.resources
+C:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Login.resources
+C:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Main.resources
+C:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Select.resources
+C:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_View.resources
+C:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_ViewNoteDetail.resources
+C:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Properties.Resources.resources
+C:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Work.resources
+C:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_AutoDesk.resources
+C:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_ChinaTelecom.resources
+C:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_RiskRaider.resources
+D:\My-Plan\My Plan\obj\x86\Debug\My Plan.exe
+D:\My-Plan\My Plan\obj\x86\Debug\My Plan.pdb
+D:\My-Plan\My Plan\bin\Debug\My Plan.exe
+D:\My-Plan\My Plan\bin\Debug\My Plan.pdb
+D:\My-Plan\My Plan\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_AddNote.resources
+D:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_AutoDesk.resources
+D:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_ChinaTelecom.resources
+D:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Edit.resources
+D:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Login.resources
+D:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Main.resources
+D:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_RiskRaider.resources
+D:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Select.resources
+D:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_View.resources
+D:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_ViewNoteDetail.resources
+D:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Work.resources
+D:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Properties.Resources.resources
+D:\My-Plan\My Plan\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\My-Plan\My Plan\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_CovidVacations.resources
+C:\My-Plan\My Plan\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_CovidVacations.resources
+C:\My-Plan\My Plan\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\My-Plan\My Plan\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_ShanghaiInCovid.resources
+C:\Users\Administrator\Documents\Visual Studio 2022\My-Plan\My Plan\obj\x86\Debug\My Plan.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2022\My-Plan\My Plan\obj\x86\Debug\My Plan.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\Documents\Visual Studio 2022\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_AddNote.resources
+C:\Users\Administrator\Documents\Visual Studio 2022\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_AutoDesk.resources
+C:\Users\Administrator\Documents\Visual Studio 2022\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_ChinaTelecom.resources
+C:\Users\Administrator\Documents\Visual Studio 2022\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_CovidVacations.resources
+C:\Users\Administrator\Documents\Visual Studio 2022\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Edit.resources
+C:\Users\Administrator\Documents\Visual Studio 2022\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Login.resources
+C:\Users\Administrator\Documents\Visual Studio 2022\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Main.resources
+C:\Users\Administrator\Documents\Visual Studio 2022\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_RiskRaider.resources
+C:\Users\Administrator\Documents\Visual Studio 2022\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Select.resources
+C:\Users\Administrator\Documents\Visual Studio 2022\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_ShanghaiInCovid.resources
+C:\Users\Administrator\Documents\Visual Studio 2022\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_View.resources
+C:\Users\Administrator\Documents\Visual Studio 2022\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_ViewNoteDetail.resources
+C:\Users\Administrator\Documents\Visual Studio 2022\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Work.resources
+C:\Users\Administrator\Documents\Visual Studio 2022\My-Plan\My Plan\obj\x86\Debug\My_Plan.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2022\My-Plan\My Plan\obj\x86\Debug\My Plan.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\Visual Studio 2022\My-Plan\My Plan\obj\x86\Debug\My Plan.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2022\My-Plan\My Plan\obj\x86\Debug\My Plan.exe
+C:\Users\Administrator\Documents\Visual Studio 2022\My-Plan\My Plan\obj\x86\Debug\My Plan.pdb
+C:\Users\Administrator\Documents\Visual Studio 2022\My-Plan\My Plan\bin\Debug\My Plan.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2022\My-Plan\My Plan\bin\Debug\My Plan.exe
+C:\Users\Administrator\Documents\Visual Studio 2022\My-Plan\My Plan\bin\Debug\My Plan.pdb
+C:\Users\Administrator\Documents\Visual Studio 2022\My-Plan\My Plan\obj\x86\Debug\My Plan.csproj.CopyComplete
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\bin\Debug\My Plan.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\bin\Debug\My Plan.exe
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\bin\Debug\My Plan.pdb
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My Plan.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_AddNote.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_AutoDesk.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_ChinaTelecom.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_CovidVacations.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Edit.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Login.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Main.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_RiskRaider.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Select.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_ShanghaiInCovid.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_View.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_ViewNoteDetail.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My_Plan.Frm_Work.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My_Plan.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My Plan.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My Plan.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My Plan.csproj.CopyComplete
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My Plan.exe
+C:\Users\Administrator\Documents\Visual Studio 2017\My-Plan\My Plan\obj\x86\Debug\My Plan.pdb
+C:\Users\Administrator\Documents\Visual Studio 2017\My Plan with SQLite\My Plan\obj\x86\Debug\My Plan.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\My Plan with SQLite\My Plan\obj\x86\Debug\My_Plan.Frm_AddNote.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My Plan with SQLite\My Plan\obj\x86\Debug\My_Plan.Frm_AutoDesk.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My Plan with SQLite\My Plan\obj\x86\Debug\My_Plan.Frm_ChinaTelecom.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My Plan with SQLite\My Plan\obj\x86\Debug\My_Plan.Frm_CovidVacations.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My Plan with SQLite\My Plan\obj\x86\Debug\My_Plan.Frm_Edit.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My Plan with SQLite\My Plan\obj\x86\Debug\My_Plan.Frm_Login.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My Plan with SQLite\My Plan\obj\x86\Debug\My_Plan.Frm_Main.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My Plan with SQLite\My Plan\obj\x86\Debug\My_Plan.Frm_RiskRaider.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My Plan with SQLite\My Plan\obj\x86\Debug\My_Plan.Frm_Select.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My Plan with SQLite\My Plan\obj\x86\Debug\My_Plan.Frm_ShanghaiInCovid.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My Plan with SQLite\My Plan\obj\x86\Debug\My_Plan.Frm_View.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My Plan with SQLite\My Plan\obj\x86\Debug\My_Plan.Frm_ViewNoteDetail.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My Plan with SQLite\My Plan\obj\x86\Debug\My_Plan.Frm_Work.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My Plan with SQLite\My Plan\obj\x86\Debug\My_Plan.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\My Plan with SQLite\My Plan\obj\x86\Debug\My Plan.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\My Plan with SQLite\My Plan\obj\x86\Debug\My Plan.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\My Plan with SQLite\My Plan\obj\x86\Debug\My Plan.exe
+C:\Users\Administrator\Documents\Visual Studio 2017\My Plan with SQLite\My Plan\obj\x86\Debug\My Plan.pdb
+C:\Users\Administrator\Documents\Visual Studio 2017\My Plan with SQLite\My Plan\bin\Debug\My Plan.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2017\My Plan with SQLite\My Plan\bin\Debug\My Plan.exe
+C:\Users\Administrator\Documents\Visual Studio 2017\My Plan with SQLite\My Plan\bin\Debug\My Plan.pdb
+C:\Users\Administrator\Documents\Visual Studio 2017\My Plan with SQLite\My Plan\obj\x86\Debug\My Plan.csproj.CopyComplete
