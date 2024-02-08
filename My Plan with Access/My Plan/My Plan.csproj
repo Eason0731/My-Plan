@@ -133,6 +133,12 @@
     <Compile Include="Frm_Work.Designer.cs">
       <DependentUpon>Frm_Work.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_WorkAtHome2023.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_WorkAtHome2023.Designer.cs">
+      <DependentUpon>Frm_WorkAtHome2023.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Frm_AddNote.resx">
@@ -173,6 +179,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Work.resx">
       <DependentUpon>Frm_Work.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_WorkAtHome2023.resx">
+      <DependentUpon>Frm_WorkAtHome2023.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

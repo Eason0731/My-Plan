@@ -142,3 +142,29 @@ C:\Users\Administrator\Documents\Visual Studio 2017\My Plan with SQLite\My Plan\
 C:\Users\Administrator\Documents\Visual Studio 2017\My Plan with SQLite\My Plan\obj\x86\Release\My Plan.csproj.CopyComplete
 C:\Users\Administrator\Documents\Visual Studio 2017\My Plan with SQLite\My Plan\obj\x86\Release\My Plan.exe
 C:\Users\Administrator\Documents\Visual Studio 2017\My Plan with SQLite\My Plan\obj\x86\Release\My Plan.pdb
+C:\Users\Administrator\Documents\My-Plan\My Plan with SQLite\My Plan\bin\Release\My Plan.exe.config
+C:\Users\Administrator\Documents\My-Plan\My Plan with SQLite\My Plan\bin\Release\My Plan.exe
+C:\Users\Administrator\Documents\My-Plan\My Plan with SQLite\My Plan\bin\Release\My Plan.pdb
+C:\Users\Administrator\Documents\My-Plan\My Plan with SQLite\My Plan\bin\Release\System.Data.SQLite.dll
+C:\Users\Administrator\Documents\My-Plan\My Plan with SQLite\My Plan\bin\Release\WinHtmlEditor.dll
+C:\Users\Administrator\Documents\My-Plan\My Plan with SQLite\My Plan\obj\x86\Release\My Plan.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\My-Plan\My Plan with SQLite\My Plan\obj\x86\Release\My_Plan.Frm_AddNote.resources
+C:\Users\Administrator\Documents\My-Plan\My Plan with SQLite\My Plan\obj\x86\Release\My_Plan.Frm_AutoDesk.resources
+C:\Users\Administrator\Documents\My-Plan\My Plan with SQLite\My Plan\obj\x86\Release\My_Plan.Frm_ChinaTelecom.resources
+C:\Users\Administrator\Documents\My-Plan\My Plan with SQLite\My Plan\obj\x86\Release\My_Plan.Frm_CovidVacations.resources
+C:\Users\Administrator\Documents\My-Plan\My Plan with SQLite\My Plan\obj\x86\Release\My_Plan.Frm_Edit.resources
+C:\Users\Administrator\Documents\My-Plan\My Plan with SQLite\My Plan\obj\x86\Release\My_Plan.Frm_Login.resources
+C:\Users\Administrator\Documents\My-Plan\My Plan with SQLite\My Plan\obj\x86\Release\My_Plan.Frm_Main.resources
+C:\Users\Administrator\Documents\My-Plan\My Plan with SQLite\My Plan\obj\x86\Release\My_Plan.Frm_RiskRaider.resources
+C:\Users\Administrator\Documents\My-Plan\My Plan with SQLite\My Plan\obj\x86\Release\My_Plan.Frm_Select.resources
+C:\Users\Administrator\Documents\My-Plan\My Plan with SQLite\My Plan\obj\x86\Release\My_Plan.Frm_ShanghaiInCovid.resources
+C:\Users\Administrator\Documents\My-Plan\My Plan with SQLite\My Plan\obj\x86\Release\My_Plan.Frm_View.resources
+C:\Users\Administrator\Documents\My-Plan\My Plan with SQLite\My Plan\obj\x86\Release\My_Plan.Frm_ViewNoteDetail.resources
+C:\Users\Administrator\Documents\My-Plan\My Plan with SQLite\My Plan\obj\x86\Release\My_Plan.Frm_Work.resources
+C:\Users\Administrator\Documents\My-Plan\My Plan with SQLite\My Plan\obj\x86\Release\My_Plan.Frm_WorkAtHome2023.resources
+C:\Users\Administrator\Documents\My-Plan\My Plan with SQLite\My Plan\obj\x86\Release\My_Plan.Properties.Resources.resources
+C:\Users\Administrator\Documents\My-Plan\My Plan with SQLite\My Plan\obj\x86\Release\My Plan.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\My-Plan\My Plan with SQLite\My Plan\obj\x86\Release\My Plan.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\My-Plan\My Plan with SQLite\My Plan\obj\x86\Release\My Plan.csproj.CopyComplete
+C:\Users\Administrator\Documents\My-Plan\My Plan with SQLite\My Plan\obj\x86\Release\My Plan.exe
+C:\Users\Administrator\Documents\My-Plan\My Plan with SQLite\My Plan\obj\x86\Release\My Plan.pdb

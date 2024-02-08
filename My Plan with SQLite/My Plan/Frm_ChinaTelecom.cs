@@ -29,7 +29,7 @@ namespace My_Plan
             lbl_qyxz.Text = "所在企业性质：";
             lbl_gsxz.Text = "国企";
             lbl_dz.Text = "国企工作地址：";
-            lbl_gqdz.Text = "柳林路158号柳林电信分局大楼506室";
+            lbl_gqdz.Text = "柳林路158号柳林电信分局大楼6楼办公室3";
             lbl_wpgs.Text = "所属外派公司：";
             lbl_wpgsmc.Text = "上海埃帕信息科技有限公司";
             lbl_wpgsdz.Text = "外派公司原地址：";
@@ -78,6 +78,12 @@ namespace My_Plan
         {
             Frm_ShanghaiInCovid frm3 = new Frm_ShanghaiInCovid();
             frm3.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Frm_WorkAtHome2023 frm4 = new Frm_WorkAtHome2023();
+            frm4.ShowDialog();
         }
     }
 }

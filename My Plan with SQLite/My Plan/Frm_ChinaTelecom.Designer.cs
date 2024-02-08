@@ -56,6 +56,7 @@
             this.lbl_wpgsxdz = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -66,7 +67,7 @@
             this.label1.Location = new System.Drawing.Point(76, 602);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(82, 23);
+            this.label1.Size = new System.Drawing.Size(85, 24);
             this.label1.TabIndex = 49;
             this.label1.Text = "感悟：";
             // 
@@ -352,10 +353,10 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("宋体", 12F);
-            this.button2.Location = new System.Drawing.Point(564, 109);
+            this.button2.Location = new System.Drawing.Point(499, 104);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(259, 75);
+            this.button2.Size = new System.Drawing.Size(163, 66);
             this.button2.TabIndex = 62;
             this.button2.Text = "2020年初受新冠疫情影响";
             this.button2.UseVisualStyleBackColor = true;
@@ -364,14 +365,26 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("宋体", 12F);
-            this.button1.Location = new System.Drawing.Point(564, 209);
+            this.button1.Location = new System.Drawing.Point(673, 104);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(259, 75);
+            this.button1.Size = new System.Drawing.Size(163, 66);
             this.button1.TabIndex = 63;
             this.button1.Text = "2022新冠疫情致上海封城";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button3
+            // 
+            this.button3.Font = new System.Drawing.Font("宋体", 12F);
+            this.button3.Location = new System.Drawing.Point(499, 189);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(163, 66);
+            this.button3.TabIndex = 64;
+            this.button3.Text = "2023年柳林5楼装修在家办公";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Frm_ChinaTelecom
             // 
@@ -379,6 +392,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(869, 932);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.lbl_wpxdz);
@@ -447,5 +461,6 @@
         private System.Windows.Forms.Label lbl_wpgsxdz;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button3;
     }
 }
